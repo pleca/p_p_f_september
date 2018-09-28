@@ -1,0 +1,64 @@
+.fieldlist {
+    margin: 0 0 -2em;
+    padding: 0;
+}
+
+.fieldlist li {
+    list-style: none;
+    padding-bottom: 2em;
+}
+
+.documents-form .fieldlist label {
+    display: block;
+    padding-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #444;
+}
+
+.fieldlist-groups {
+    margin: 0 0 -1em;
+    padding: 0;
+}
+
+.fieldlist-groups li {
+    list-style: none;
+    padding-bottom: 0.5em;
+}
+
+#doc-add-btn {
+    background-color: #e4e7eb;
+}
+
+#documents-description {
+    width: 100%;
+}
+
+#documents-name {
+    width: 100%;
+}
+
+.form-head-doc {
+    padding-bottom: 1em;
+}
+
+li.user-groups-li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#single-user-li li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li.user-groups-li-edit {
+    display: inline-block;
+    padding: 5px;
+}
+
+.documents-form input {
+    width: 100%;
+}
+

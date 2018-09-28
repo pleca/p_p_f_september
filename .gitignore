@@ -1,0 +1,6 @@
+.idea/
+temp/
+.htaccess
+/db/functions_db.php
+/konfiguracja
+/js/zmienneGlobalne.js

@@ -1,0 +1,444 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	font-size: 15px;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+p {
+	font-family: 'Carlito'; font-weight: normal;
+}
+
+.required{
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(201, 37, 44, 1);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(201, 37, 44, 1);
+	box-shadow:         0px 0px 2px 0px rgba(201, 37, 44, 1);
+}
+
+.clear_b{
+	clear:both;
+}
+/*STRONA*/
+
+body{
+	background: rgba(0,0,0,0.7);
+}
+
+.strona{
+	background: #FFF;
+	width:920px;
+	height:1349px;
+	position: relative;
+	padding: 40px;
+	line-height: 1.2;
+	font-family: 'Carlito'; font-weight: normal; 
+	margin:0 auto;
+	overflow: hidden;
+}
+.id_przedstawiciela {
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	left:40px;
+	top:40px;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 20px;
+}
+.id_przedstawiciela:AFTER{
+	position:absolute;
+	top:24px;
+	left:4px;
+	font-size:11px;
+	font-family: 'Carlito';
+	content: 'IDENTYFIKATOR PRZEDSTAWICIELA';
+}
+.logo_votum {
+	width: 214px;
+	height: 39px;
+	background: url(../../../img/logo.png);
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+.tytul_strony {
+	text-align: center;
+	margin-top: 30px;
+}
+.tytul_strony p {
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 24px;
+}
+.naglowek_umowy p {
+	margin-left: 20px;
+	margin-top: 30px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.formularz_czerwony {
+	border-top: 2px solid #AC273F;
+	border-right: 2px solid #AC273F;
+	border-left: 6px solid #AC273F;
+	width: 100%;
+	height: auto;
+	margin-top: 35px;
+	padding: 0px 8px 8px 0px;
+}
+.formularz_czerwony:BEFORE{
+	position: relative;
+	top:-26px;
+	left:10px;
+	content: 'CEDENTEM:';
+	color:#AC273F;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 20px;
+}
+.naglowek_formularza_czerwony {
+	margin-top: -23px;
+	font-family: 'Carlito';
+	font-weight: 900;
+	width:auto;
+	height: 22px;
+}
+.szary p, .czerwony p {
+	color: #FFF;
+	font-size: 20px;
+	margin-left:10px;
+}
+.czerwony_2 p {
+	color: #FFF;
+	font-size: 20px;
+	margin-left:10px;
+}
+.szary {
+	background-color:#636466;
+	float: left;
+	width: 250px;
+}
+.czerwony {
+	background-color:#AC273F;
+	float: left;
+	width: 250px;
+}
+.czerwony_2 {
+	background-color:#AC273F;
+	float: left;
+	width: 450px;
+}
+.margin_l_20 {
+	margin-left: 20px;
+}
+.pola_formularza_wlasciciel {
+	width: 100%;
+	height: 430px;
+	position: relative;
+	margin: 5px 10px 10px 10px;
+}
+.element_pole{
+	float:left;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+.element_pole p{
+	font-size: 10px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.element_pole div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+	position: relative;
+}
+.bls_im_naz_zleceniodawcy, .bls_us_zleceniodawcy {
+	width:900px;
+	height: 20px;
+}
+.bls_ulica_zleceniodawcy, .bls_miejscowosc_zleceniodawcy, .bls_ulica_us_zleceniodawcy, .bls_miejscowosc_us_zleceniodawcy, .bls_udzial_zleceniodawcy  {
+	width:289.5px;
+	height: 20px;
+}
+.bls_nr_lokalu_zleceniodawcy, .bls_nr_lokalu_us_zleceniodawcy {
+	width:65px;
+	height: 20px;
+}
+.bls_nr_domu_zleceniodawcy, .bls_nr_domu_us_zleceniodawcy {
+	width:50px;
+	height: 20px;
+}
+.bls_kod_pocztowy_zleceniodawcy, .bls_kod_pocztowy_us_zleceniodawcy {
+	width:85px;
+	height: 20px;
+}
+.bls_nip_zleceniodawcy {
+	width:245px;
+	height: 20px;
+}
+.bls_krd_zleceniodawcy {
+	width:200px;
+	height: 20px;
+}
+.bls_data_urodzenia_zleceniodawcy, .bls_telefon_zleceniodawcy {
+	width:242px;
+	height: 20px;
+}
+.bls_dokument_zleceniodawcy, .bls_pesel_zleceniodawcy {
+	width:180px;
+	height: 20px;
+}
+.bls_e-mail_zleceniodawcy {
+	  width:355px;
+	  height: 20px;
+  }
+.sekcja_formularza p {
+	color:#636466;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 20px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.medium p {
+	color:#636466;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 11px;
+	float: left;
+	margin-top: 17px;
+
+}
+.przypis_poziomy p {
+	float: left;
+	width: 490px;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 10px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.formularz_szary {
+	border-top: 2px solid #636466;
+	border-right: 2px solid #636466;
+	border-left: 6px solid #636466;
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	padding: 0px 8px 8px 0px;
+}
+.naglowek_formularza_szary {
+	margin-top: 0px;
+	font-family: 'Carlito';
+	font-weight: 900;
+	width:auto;
+	height: 22px;
+}
+.przypis_poziomy_top p {
+	float: left;
+	width: 490px;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 10px;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+.pola_formularza_reprezentant_1 {
+	 width: 100%;
+	 height: 330px;
+	 position: relative;
+	 margin: 5px 10px 10px 10px;
+ }
+.pola_formularza_reprezentant_2 {
+	width: 100%;
+	height: 230px;
+	position: relative;
+	margin: 5px 10px 10px 10px;
+
+}
+.formularz_szary_obramowanie {
+	border: 2px solid #636466;
+	border-left-width: 6px;
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	padding: 0px 8px 8px 0px;
+}
+.stopka_strony{
+	position: absolute;
+	bottom:20px;
+	width: 920px;
+	font-size: 16px;
+}
+
+.stopka_strony_lewe{
+	float: left;
+	width: 450px;
+	text-align: left;
+}
+.stopka_strony_srodkowe{
+	width: 20px;
+	float: left;
+}
+.stopka_strony_prawe{
+	width: 450px;
+	float: left;
+	text-align: right;
+}
+.margin_t_60 {
+	margin-top: 60px;
+}
+.pola_formularza_reprezentant_2_us {
+	width: 100%;
+	height: 180px;
+	position: relative;
+	margin: 5px 10px 10px 10px;
+}
+.przypis_poziomy_us p {
+	float: left;
+	width: 610px;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 10px;
+	margin-top: 18px;
+	margin-left: -115px;
+}
+.spojnik p {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 22px;
+}
+.formularz_szary_cesjonariusz:BEFORE{
+	position: relative;
+	top:-36px;
+	left:10px;
+	content: 'CESJONARIUSZEM:';
+	color:#AC273F;
+	font-family: 'Carlito';
+	font-weight: 900;
+	font-size: 20px;
+}
+.pola_formularza_cesjonariusz {
+	width: 100%;
+	height: 80px;
+	position: relative;
+	margin: 0px 10px 10px 10px;
+
+}
+.cesjonariusz_sekcja p {
+	font-size: 16px;
+	font-weight: normal;
+}
+.formularz_szary_cesjonariusz {
+	border: 2px solid #636466;
+	border-left-width: 6px;
+	width: 100%;
+	height: auto;
+	margin-top: -10px;
+	padding: 10px 8px 8px 0px;
+}
+.bls_cesjonariusz {
+	width:900px;
+	height: 20px;
+}
+.czerwony_tekst{
+	color:#AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.bls_sekcja{
+	position:relative;
+	margin-top:20px;
+}
+.bls_sekcja_tytul{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.bls_sekcja_paragraf{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.bls_sekcja_tresc p{
+	text-align: justify;
+	font-size:  16px;
+}
+.margin_t_80 {
+	margin-top: 80px;
+}
+.podpisy_dwa{
+	position: relative;
+	width: 920px;
+	margin-top:100px;
+}
+
+.podpis_lewy{
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin-left:30px;
+	border-top: 2px solid #000;
+	font-size: 12px !important;
+	font-weight: 900;
+}
+
+.podpis_prawy{
+	width: 300px;
+	float: right;
+	text-align: center;
+	margin-right:30px;
+	border-top: 2px solid #000;
+	font-size: 12px !important;
+	font-weight: 900;
+}
+.kreska {
+	top:100px;
+	position: relative;
+	height: 1px;
+	width: 920px;
+	background-color: #000;
+}
+.bls_przypisy {
+	position: relative;
+	margin-top: 110px;
+}
+.bls_przypisy p {
+	font-size:14px;
+}

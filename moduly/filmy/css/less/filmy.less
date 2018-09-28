@@ -1,0 +1,62 @@
+//DOMIESZKI
+.domieszka_box-shadow(@Horizontal: 0px, @Vertical: 0px, @Blur: 1px, @Spread: 0px, @Color: #666){
+  -webkit-box-shadow: @Horizontal @Vertical @Blur @Spread @Color;
+  -moz-box-shadow: @Horizontal @Vertical @Blur @Spread @Color;
+  box-shadow: @Horizontal @Vertical @Blur @Spread @Color;
+}
+@szary: #ddd;
+
+.film{
+  margin: 10px 0;
+
+  .filmOpcje{
+    top: 8px;
+    right: 24px;
+
+    .fa{
+      margin:4px;
+    }
+  }
+
+  .miniaturaFilm{
+    overflow: hidden;
+    width:100%;
+    height:150px;
+    position: relative;
+
+    img{
+      width:100%;
+      height:auto;
+      position: absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      margin:auto;
+    }
+  }
+
+  .panel, img{
+    transition: 0.5s;
+  }
+
+  &:hover .panel{
+    .domieszka_box-shadow(1px, 1px, 5px);
+
+    img{
+      transform: scale(1.1) rotate(1deg);
+    }
+  }
+
+}
+
+#popUpFilmyAudio{
+  video{
+    width:100%;
+    height:auto;
+  }
+}
+
+.btn {
+  padding: 8px 12px;
+}

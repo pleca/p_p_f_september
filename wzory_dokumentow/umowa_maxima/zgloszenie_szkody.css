@@ -1,0 +1,690 @@
+@font-face{
+	font-family:'calibri_z';
+	src:url('Calibri.ttf') format('truetype');
+
+}
+
+@font-face{
+	font-family:'calibri_z_bold';
+	src:url('Calibri Bold.ttf') format('truetype');
+
+}
+
+ 
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {
+	font-family: calibri_z_bold;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.required{
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(201, 37, 44, 1);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(201, 37, 44, 1);
+	box-shadow:         0px 0px 2px 0px rgba(201, 37, 44, 1);
+}
+
+.clear_b{
+	clear:both;
+}
+
+.margin_r_20{
+	margin-right: 20px;
+}
+
+.czerwony_tekst{
+	color:#AC273F;
+	font-family: calibri_z_bold;
+}
+
+/*STRONA*/
+
+body{
+	background: rgba(0,0,0,0.7);
+}
+
+.strona{
+	background: #FFF;
+	width:920px;
+	height:1349px;
+	position: relative;
+	padding: 40px;
+	line-height: 1.2;
+	font-family: calibri_z;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.strona_znak_wodny{
+	color:#CCC;
+	position: absolute;
+	-webkit-transform:rotate(-56deg);
+	transform:rotate(-56deg);
+	bottom:100px;
+	left:30px;
+	font-family: calibri_z;
+	z-index: 0;
+	font-size: 120px;
+	height:920px;
+	width:1649px;
+}
+
+.strona_tresc{
+	z-index: 1;
+	position: relative;
+}
+
+.logo_votum{
+	width: 214px;
+	height: 39px;
+	background: url(../../img/logo.png);
+	position:absolute;
+	top:40px;
+	right:40px;
+}
+
+.identyfikator_przedstawiciela{
+	height: 20px;
+	padding:4px;
+	width:258px;
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-family: calibri_z_bold;
+	font-size: 20px;
+}
+.identyfikator_przedstawiciela:AFTER{
+	position:absolute;
+	top:24px;
+	left:4px; 
+	font-size:12px;
+	font-family: calibri_z;	
+	content: 'IDENTYFIKATOR PRZEDSTAWICIELA';
+}
+
+.tytul_strony{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.tytul_strony p:first-child{
+	font-size: 26px;
+}
+
+.tytul_strony p{
+	font-family: calibri_z_bold;
+}
+
+.na_podstawie_zamowienia{
+	margin-top:10px;
+	overflow: hidden;
+}
+
+.na_podstawie_zamowienia p{
+	float:left;
+	margin-right: 4px;
+}
+
+.zleceniodawca{
+	margin-top:34px;
+	border:1px solid #AC273F;
+	padding: 10px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.zleceniodawca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIODAWCĘ:';
+	color:#AC273F;
+	font-family: calibri_z_bold;
+	font-size: 18px;
+}
+
+.zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: calibri_z_bold;
+}
+
+.zleceniodawca .napis{
+	margin: 4px 0px;
+	font-family: calibri_z_bold;
+}
+.zgloszenie_zleceniodawca{
+	margin-top:35px;
+	border:1px solid #AC273F;
+	padding: 5px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.tytul_sekcji{
+	position: absolute;
+	top:-26px;
+    left: -5px;
+	background-color: #AC273F;
+	font-family: calibri_z_bold;
+	font-size: 18px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 26px;
+    padding-left: 10px;
+}
+
+.zgloszenie_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: calibri_z_bold;
+}
+
+.zgloszenie_zleceniodawca .napis{
+	margin: 4px 0px;
+	font-family: calibri_z_bold;
+}
+.element{
+	float:left;
+	margin-top:4px;
+}
+
+.element p{
+	font-size: 12px;
+	font-family: calibri_z_bold;
+}
+
+.element div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+}
+.zleceniodawca_nr_rachunku{
+	width:634px;
+    letter-spacing: 2px;
+}
+.zleceniodawca_imie, .zleceniodawca_w_imieniu_imie{
+	width:420px;
+
+}
+
+.zleceniodawca_nazwisko, .zleceniodawca_w_imieniu_nazwisko{
+	width:434px;
+}
+
+.zleceniodawca_ulica, .zleceniodawca_w_imieniu_ulica{
+	width:280px;
+}
+
+.zleceniodawca_pesel{
+	width:120px;
+}
+
+.zleceniodawca_nr_domu, .zleceniodawca_w_imieniu_nr_domu, .posiadacz_rachunku_nr_domu{
+	width:52px;
+	margin-right: 4px;
+}
+
+.zleceniodawca_nr_mieszkania, .zleceniodawca_w_imieniu_nr_mieszkania, .posiadacz_rachunku_nr_mieszkania{
+	width:80px;
+	
+}
+
+.zleceniodawca_kod_pocztowy, .zleceniodawca_w_imieniu_kod_pocztowy, .posiadacz_rachunku_kod_pocztowy{
+	width:80px;
+}
+
+.zleceniodawca_miejscowosc, .zleceniodawca_w_imieniu_miejscowosc{
+	width:288px;
+}
+
+.posiadacz_rachunku_imie{
+	width:440px;
+}
+
+.posiadacz_rachunku_nazwisko{
+	width:440px;
+}
+
+.posiadacz_rachunku_ulica{
+	width:295px;
+}
+
+.posiadacz_rachunku_miejscowosc{
+	width:299px;
+}
+
+.naglowek_sekcji{
+	text-align: center;
+	font-size: 20px;
+	font-family: calibri_z_bold;
+	margin:10px 0px 0px;
+}
+
+.zleceniobiorca{
+	margin-top:14px;
+	border:1px solid #636466;
+	padding: 10px;
+	border-left:5px solid #636466;
+	position:relative;
+}
+
+.zleceniobiorca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIOBIORCY:';
+	color:#636466;
+	font-family: calibri_z_bold;
+	font-size: 18px;
+}
+
+.zleceniobiorca p{
+	text-align: justify;
+}
+
+.zleceniobiorca div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+	margin-top:4px;
+}
+
+.sekcja{
+	positon:relative;
+	margin-top:20px;
+}
+.sekcja_bez_odstepu{
+	positon:relative;
+	margin-top:0px;
+}
+.margin_b_10{
+	margin-bottom: 10px;
+}
+
+.sekcja_tytul{
+	text-align: center;
+	font-family: calibri_z_bold;
+}
+.sekcja_tytul_lewa{
+    margin-top:30px;
+	text-align: left;
+	font-family: calibri_z_bold;
+}
+.sekcja_paragraf{
+	text-align: center;
+	font-family: calibri_z_bold;
+}
+.sekcja_tresc{
+	text-align: justify;
+}
+
+.kratka{
+	padding:0px 4px;
+	border:1px solid #2B2E34;
+	margin-right: 4px;
+}
+
+.male_litery{
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.kratka_element{
+	padding-top: 14px;
+	width:240px;
+}
+
+.kratka_element span{
+	float:left;
+}
+
+.objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+    padding-top: 15px;
+	text-align: justify;
+	margin-top:15px;
+}
+
+.strona_stopka{
+	position: absolute;
+	bottom:40px;
+	width: 920px;
+}
+
+.strona_stopka_numer_strony, .strona_stopka_napis{
+	font-size: 14px;
+}
+
+.strona_stopka_numer_strony{
+	text-align: center;
+}
+
+.strona_stopka_napis{
+	text-align: right;
+}
+
+.pogrubienie{
+	font-family: calibri_z_bold;
+}
+
+.strona_2 .sekcja:first-child{
+	margin-top:0px !important;
+}
+
+.objasnienia.strona_2{
+	margin-top: 30px;
+}
+
+.objasnienia.strona_1{
+	margin-top: 120px;
+}
+.objasnienia.strona_3{
+	margin-top: 30px;
+    margin-bottom: 60px;
+}
+.podpis_lewo{
+	float:left;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	margin-top:20px;
+}
+
+.podpis_prawo{
+	float:right;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	text-align: right;
+	margin-top:20px;
+}
+
+.oswiadczenie{
+	margin-top: 10px;
+}
+
+.oswiadczenie_tresc{
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.tabelka{
+	margin-top:30px;
+	border:1px solid #AC273F;
+	border-left:5px solid #AC273F;
+	
+}
+
+.wiersz_tabeli p{
+	float:left;
+	padding: 4px;
+	border-right: 1px solid #2B2E34;
+	text-align: center;
+}
+
+.wiersz_tabeli_dane{
+	border-top: 1px solid #2B2E34;
+}
+
+.naglowek_tabeli p{
+	color:#AC273F;
+	font-family: calibri_z_bold;
+	border-right: 1px solid #AC273F;
+	height:60px;
+}
+
+.wiersz_tabeli_lp{
+	width: 40px;
+	padding-top:24px !important;
+	height: 40px !important;
+}
+
+.wiersz_tabeli_data{
+	width: 90px;
+	padding-top:24px !important;
+	height: 40px !important;
+}
+
+.wiersz_tabeli_start{
+	width: 100px;
+	padding:16px 20px 0px 20px !important;
+	height: 52px !important;
+	
+}
+
+.wiersz_tabeli_cel{
+	width: 100px;
+	padding:16px 20px 0px 20px !important;
+	height: 52px !important;
+}
+
+.wiersz_tabeli_rodzaj_placowki{
+	width: 340px;
+	padding:24px 20px 0px 20px !important;
+	height: 44px !important;
+}
+
+.wiersz_tabeli_odleglosci_obie{
+	width: 94px;
+}
+
+.wiersz_tabeli_dane p {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+	min-height: 20px !important;
+	height:auto !important;
+}
+
+.wiersz_tabeli_dane, .wiersz_tabeli_dane p{
+	overflow: hidden;
+}
+
+.stopka_tabeli{
+	float:right;
+	border: 1px solid #2B2E34;
+	padding: 10px;
+	margin-top: 4px;
+	width:83px;
+	text-align: center;
+}
+
+.zalaczniki{
+	margin-top:20px;
+}
+
+.zalaczniki p{
+	float:left;
+	font-family: calibri_z_bold;
+}
+
+.zalaczniki span{
+	float:left;
+	padding: 4px 4px;
+	margin-top: 3px;
+	margin-left: 4px;
+}
+
+.kratka_pelna{
+	padding: 0px 4px !important;
+	border: 1px solid #2B2E34;
+	margin-top: -3px !important;
+	margin-right: 4px;
+}
+
+.zalaczniki_opcje{
+	margin-left:170px;
+}
+
+.oswiadczenie_podpisy{
+	margin-top:60px;	
+}
+.odstapienie{
+	margin-top:34px;
+	border:1px solid #AC273F;
+	padding: 10px;
+	border-left:5px solid #AC273F;
+	position:relative;
+    padding-bottom: 30px;
+}
+
+.odstapienie:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	color:#AC273F;
+	font-family: calibri_z_bold;
+	font-size: 18px;
+}
+
+.odstapienie > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: calibri_z_bold;
+}
+
+.odstapienie .napis{
+	margin: 4px 0px;
+	font-family: calibri_z_bold;
+}
+.tytul_formularza {
+    position: absolute;
+    top: 8px;
+	left: 8px;
+	color:#AC273F;
+	font-family: calibri_z_bold;
+	font-size: 16px;
+}
+.odstapienie_adres_votum {
+    margin-left:60%;
+    margin-top: 18px;
+}
+.formularz_odstapienie_tytul {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.formularz_odstapienie_podtytul {
+    text-align: center;
+}
+.odstapienie_data {
+    text-align: center;
+    margin-top: 25px;
+}
+.konsument {
+    margin-left:60%;
+    margin-top: 40px;
+}
+.dane_konsumenta {
+   margin-bottom: 30px;
+}
+.dane_konsumenta_podpis {
+    font-weight: bold;
+    border-bottom: 1px solid #2B2E34;
+    margin-top:25px;
+    font-size: 18px;
+}
+.dane_konsumenta_info {
+    border-top: 1px solid #2B2E34;
+    font-size: 10px;
+    margin-right: 80px;
+    text-align: left;
+}
+.odstapienie_adres_votum_big .pogrubienie, .odstapienie_adres_votum_big {
+    margin-left:60%;
+    margin-top: 18px;
+    font-size: 20px;
+}
+.formularz_odstapienie_tytul_big {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 120px;
+    font-weight: bold;
+}
+.formularz_odstapienie_podtytul_big {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.odstapienie_data_big {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.konsument_big {
+    margin-left:60%;
+    margin-top: 100px;
+}
+.dane_konsumenta_big {
+   margin-bottom: 40px;
+}
+.dane_konsumenta_podpis_big {
+    font-weight: bold;
+    border-bottom: 1px solid #2B2E34;
+    margin-top:35px;
+    font-size: 20px;
+}
+.dane_konsumenta_info_big {
+    border-top: 1px solid #2B2E34;
+    font-size: 14px;
+    margin-right: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

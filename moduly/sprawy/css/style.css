@@ -1,0 +1,864 @@
+/*STYLE DLA MODUŁU: SPRAWY*/
+
+
+.druk_umowy_strona{
+	/*display:none;*/
+	display:block;
+}
+
+.druk_umowy_strona_str_1{
+	padding: 40px 0px 0px 0px;
+	border:0px solid #CCC;
+	position:relative;
+}
+.druk_umowy_strona_str_naglowek{
+	position:absolute;
+	padding: 10px 10px 11px;
+	top:0px;
+	left:9px;
+	background: #CCC;
+	width: 784px;
+	cursor:pointer;
+}
+.zakladki{
+	position:relative;
+}
+.instrukcja_dodaj span, .instrukcja_dodaj_b1 span, .instrukcja_dodaj_b2 span {
+    cursor: pointer;
+}
+.instrukcja_dodaj span:hover, .instrukcja_dodaj_b1 span:hover, .instrukcja_dodaj_b2 span:hover {
+	cursor: pointer;
+}
+
+.zleceniodawca_formularz_dodaj, .zleceniodawca_formularz_dodaj_b1, .zleceniodawca_formularz_dodaj_b2 {
+    display: none;
+}
+.zakladki .zakladki_element{
+	float:left;
+	margin:0px 4px;
+	padding: 12px 12px;
+	border: 1px solid #FFF;
+	border-bottom: none;
+	-webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+}
+.cofnij {
+    float:left !important;
+    margin-right: 50px !important;
+}
+.dalej {
+    float:right !important;
+    margin-left: 50px !important;
+}
+.zakladki .zakladki_element.aktywna{
+	background: #FFF;
+}
+.strona_umowy{
+	display:block;
+	padding: 5px 5px 5px 5px;
+}
+.szkoda_napis, .rodzaj_napis {
+	float:left;
+}
+.zgoda_napis, zgoda .kratka {
+	margin-bottom: 0px !important;
+}
+.margin_b_60 {
+    margin-bottom: 60px;
+}
+.margin_t_60 {
+    margin-top: 60px;
+}
+.zgoda, .szkoda, .rodzaj, .obcokrajowiec, .poszkodowany {
+	float:left;
+	margin-left:10px;
+}
+.zgoda .kratka, .szkoda .kratka, rodzaj .kratka, .obcokrajowiec .kratka, .poszkodowany .kratka {
+	background: url(/img/kolko.png);
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+	float:left;
+	margin-right: 6px;
+	margin-top:2px;
+	cursor:pointer;
+	position: relative;
+	margin-top:-2px;
+}
+
+.zgoda .kratka .zaznaczone:after, .szkoda .kratka .zaznaczone:after, rodzaj .kratka .zaznaczone:after, .obcokrajowiec .kratka .zaznaczone:after,  .poszkodowany .kratka .zaznaczone:after {
+	top: 0px;
+	left: 0px;
+	content: ' ';
+	background: url(/img/zaznaczone.png);
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	display: block;
+}
+.typ_szkody, .rodzaj_wypadku, .inne_szkody, .inne_wypadki, .wynagrodzenie_przelew, .wynagrodzenie_przekaz {
+	display:none;
+}
+.zleceniodawca_formularz_numer_rachunku_bankowego input{
+	width: 700px;
+}
+.pytanie_o_przetwarzanie, .komunikat_brak_zgody {
+    font-size: 24px;
+    color: #C9252C;
+    font-weight: bold;
+    margin-top:20px;
+}
+.komunikat_brak_zgody {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.tlo_umowa{
+	background: #FFF;
+	border-radius:2px;
+	overflow: hidden;
+}
+.dane_identyfikacyjne {
+    display: block;
+}
+.dane_identyfikacyjne_obcokrajowca, .w_pojezdzie, .poza_pojazdem {
+    display:none;
+}
+.pytanie_obcokrajowiec p {
+    float: left
+}
+.pytanie_do_klienta {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.przetwarzanie {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pozycje_zakladek {
+    display: none;
+}
+.zgloszono_szkode{
+    display:none;
+}
+.str_1, .str_2, .str_3, .str_4, .str_5, .str_6, .str_7, .str_8, .str_9, .str_10, .str_11, .str_12, .str_13, .str_14 {
+    display: block;
+	background-color: #FFF;
+}
+.ddo_imie, 
+.poszkodowany_umowa .zleceniodawca_formularz_imie input, .uprawniony_formularz .zleceniodawca_formularz_imie input, .zleceniodawca_formularz .zleceniodawca_formularz_imie input, .zleceniodawca_formularz_dodaj .zleceniodawca_formularz_imie input, .wynagrodzenie_przelew .zleceniodawca_formularz_imie input, .wynagrodzenie_przekaz .zleceniodawca_formularz_imie input, .zleceniodawca_formularz_b1 .zleceniodawca_formularz_imie input, .zleceniodawca_formularz_dodaj_b1 .zleceniodawca_formularz_imie input, .zleceniodawca_formularz_b2 .zleceniodawca_formularz_imie input, .zleceniodawca_formularz_dodaj_b2 .zleceniodawca_formularz_imie input{
+	width:315px;
+}
+.poszkodowany_umowa .zleceniodawca_formularz_wiek input, .uprawniony_formularz .zleceniodawca_formularz_wiek input, .zleceniodawca_formularz .zleceniodawca_formularz_wiek input, .zleceniodawca_formularz_dodaj .zleceniodawca_formularz_wiek input,  .zleceniodawca_formularz_b1 .zleceniodawca_formularz_wiek input, .zleceniodawca_formularz_dodaj_b1 .zleceniodawca_formularz_wiek input, .zleceniodawca_formularz_b2 .zleceniodawca_formularz_wiek input, .zleceniodawca_formularz_dodaj_b2 .zleceniodawca_formularz_wiek input{
+	width:55px;
+}
+.zleceniodawcy_formularz_dodaj .zleceniodawca_formularz_wiek input {
+    background-color: aqua;
+}
+.dane_wypadku_miejsce_zdarzenia input {
+    width: 380px;
+}
+#zapisz_strone_1 {
+	padding: 10px;
+	text-align: center;
+	background: #FFF;
+	transition:0.2s;
+	cursor:pointer;
+	border: 1px solid #CCC;
+	display: none;
+}
+
+#zapisz_strone_1:hover{
+	background: #11BE11;
+	color:#FFF;
+}
+#zapisz_strone_7_b, #zapisz_strone_6_b, #zapisz_strone_5_b, #zapisz_strone_4_b, #zapisz_strone_3_b, #zapisz_strone_2, #zapisz_strone_2_b1, #zapisz_strone_2_b2, #zapisz_strone_3, #zapisz_strone_4, #zapisz_strone_5, #zapisz_strone_6, #zapisz_strone_7, #zapisz_strone_8, #zapisz_strone_9, #zapisz_strone_10, #zapisz_strone_11a, #zapisz_strone_11b, #zapisz_strone_12, #zapisz_strone_13, #zapisz_strone_14 {
+	padding: 10px;
+	text-align: center;
+	background: #FFF;
+	transition:0.2s;
+	cursor:pointer;
+	border: 1px solid #CCC;
+	display: block;
+}
+
+#zapisz_strone_7_b:hover, #zapisz_strone_6_b:hover, #zapisz_strone_5_b:hover, #zapisz_strone_4_b:hover, #zapisz_strone_3_b:hover, #zapisz_strone_2:hover, #zapisz_strone_2_b1:hover, #zapisz_strone_2_b2:hover, #zapisz_strone_3:hover, #zapisz_strone_4:hover, #zapisz_strone_5:hover, #zapisz_strone_6:hover, #zapisz_strone_7:hover, #zapisz_strone_8:hover, #zapisz_strone_9:hover, #zapisz_strone_10:hover, #zapisz_strone_11a:hover, #zapisz_strone_11b:hover, #zapisz_strone_12:hover, #zapisz_strone_13:hover, #zapisz_strone_14:hover{
+	background: #11BE11;
+	color:#FFF;
+}
+.opis_zdarzenia_pole textarea, .opis_obrazen_pole textarea{
+	border:1px solid #CCC;
+	width:785px;
+	resize:none;
+	padding: 10px;
+	font-family: 'Calibri';
+	font-size: 14px;
+	height: 100px;
+}
+.opis_zdarzenia_pole, .opis_obrazen_pole {
+    margin-bottom: 20px;
+}
+.wynagrodzenie_naglowek_tresc, .dochodzenie_roszczen_naglowek_tresc, .odpowiedzialnosc_zobowiazanego_naglowek_tresc, .lista_dokumentacji_naglowek_tresc, .przedmiot_umowy_naglowek_tresc, .dochodzenie_roszczen_naglowek_tresc, .odpowiedzialnosc_karna_naglowek_tresc, .odpowiedzialnosc_cywilna_naglowek_tresc, .pozostale_roszczenia_naglowek_tresc, .inne_odszkodowania_naglowek_tresc, .informacje_o_uprawnionym_naglowek_tresc, .informacje_o_zmarlym_naglowek_tresc, .informacje_o_uprawnionym_naglowek_tresc, .stosunki_rodzinne_majatkowe_naglowek_tresc, .sytuacja_po_smierci_naglowek_tresc, .typ_szkody_naglowek_tresc, .rodzaj_wypadku_naglowek_tresc, .zleceniodawca_naglowek_tresc, .poszkodowany_naglowek_tresc, .uprawniony_naglowek_tresc, .info_o_zdarzeniu_naglowek_tresc, .opis_zdarzenia_naglowek_tresc, .oswiadzczenie_osoby_uprawnionej_naglowek_tresc, .oswiadczenie_naglowek_tresc, .wybor_umowy_tresc, .sposob_platnosci_tresc, .oswiadzczenie_osoby_poszkodowanej_naglowek_tresc, .opis_obrazen_naglowek_tresc{
+	padding: 5px;
+    background: #f2f2f2;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.wynagrodzenie_naglowek_tresc_tresc, .dochodzenie_roszczen_naglowek_tresc_tresc, .odpowiedzialnosc_zobowiazanego_naglowek_tresc_tresc, .lista_dokumentacji_naglowek_tresc_tresc, .przedmiot_umowy_naglowek_tresc_tresc, .dochodzenie_roszczen_naglowek_tresc_tresc, .odpowiedzialnosc_karna_naglowek_tresc_tresc, .odpowiedzialnosc_cywilna_naglowek_tresc_tresc, .pozostale_roszczenia_naglowek_tresc_tresc, .inne_odszkodowania_naglowek_tresc_tresc, .informacje_o_uprawnionym_tresc, .informacje_o_zmarlym_naglowek_tresc_tresc, informacje_o_uprawnionym_naglowek_tresc_tresc, .stosunki_rodzinne_majatkowe_naglowek_tresc_tresc, .sytuacja_po_smierci_naglowek_tresc_tresc, .wybor_umowy_tresc_tresc, .sposob_platnosci_tresc_tresc{
+	padding: 10px;
+}
+.kratka_2 {
+    background: url(/img/kolko.png);
+    background-size: 100% 100%;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+    cursor: pointer;
+    position: relative;
+    margin-top: -2px;
+}
+
+.kratka_2 .zaznaczone:after {
+	top: 0px;
+	left: 0px;
+	content: ' ';
+	background: url(/img/zaznaczone.png);
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	display: block;
+}
+.obcokrajowiec {
+	margin-bottom: 0px !important;
+    float:left;
+}
+.dokument_obcokrajowca {
+    display: none;
+}
+
+-----------------------------------------------
+.margin_r_20{
+	margin-right:20px;
+}
+.margin_r_10{
+	margin-right:10px;
+}
+
+.margin_t_5{
+	margin-top:5px;
+}
+
+.margin_t_10{
+	margin-top:10px;
+}
+
+.margin_t_20{
+	margin-top:20px;
+}
+
+.margin_b_0{
+	margin-bottom: 0px !important;
+}
+
+.margin_b_10{
+	margin-bottom: 10px;
+}
+.clear_b{
+	clear:both;
+}
+.pojazd_c_informacje {
+	border:1px solid #CCC;
+	resize:none;
+	font-family: 'Calibri';
+	padding: 10px;
+	font-size: 14px;
+	width:785px;
+	height: 150px;
+}
+.zleceniodawca_formularz_element{
+	float:left;
+}
+
+.zleceniodawca_formularz_element input{
+	padding: 10px;
+	border:1px solid #CCC;
+}
+.pojazd_a, .pojazd_b, .pojazd_c{
+	display:none;
+}
+.dane_wypadku_data_wypadku input {
+  	 width: 145px;
+}
+.zleceniodawca_formularz p{
+	margin:0px 0px 5px 0px;
+}
+
+.zleceniodawca_formularz_element{
+	float:left;
+}
+
+.zleceniodawca_formularz_element input{
+	padding: 10px;
+	border:1px solid #CCC;
+}
+.lista_klientow_opcje, .lista_klientow_opcje_b1, .lista_klientow_opcje_b2 {
+    padding: 5px 10px;
+    width: 805px;
+    border: 1px solid #CCC;
+    height: 31px;
+}
+
+.zgloszenie_wiersz_elementow input {
+    border: 1px solid #CCC;
+    margin: 0px 5px;
+    padding: 3px 5px;
+}
+.wybor_umowy {
+    margin-top: 10px;
+}
+.prowizja_optima {
+    width: 50px;
+}
+.body_strona.lista .body_strona_r .tabelka .tabelka_wiersz .tabelka_imie_nazwisko{
+	width:270px;
+}
+
+.body_strona.lista .body_strona_r .tabelka .tabelka_wiersz .tabelka_rodzaj_umowy{
+	width:120px;
+}
+
+.body_strona.lista .body_strona_r .tabelka .tabelka_wiersz .tabelka_typ_szkody{
+	width:180px;
+}
+
+.body_strona.lista .body_strona_r .tabelka .tabelka_wiersz .tabelka_opcje{
+	padding: 5px 10px;
+	height: 40px;
+	float:right;
+}
+
+.edytuj{
+	width:30px;
+	height: 30px;
+	background: url(/img/edytuj.png);
+	display: block;
+}
+
+.rozwin{
+	width:30px;
+	height: 30px;
+	background: url(/img/rozwin.png);
+	display: block;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+#klient_zapisz_zmiany{
+	display:none;
+}
+
+.zleceniodawca_formularz_naglowek{
+	padding: 10px;
+	background: #CCC;
+	margin-bottom: 10px;
+	position: relative;
+	height: 40px;
+}
+
+.zf_edycja .zleceniodawca_formularz_nazwisko input {
+    width: 470px;
+}
+
+.klient_szczegoly_opcje_edytuj{
+	position: absolute;
+	top:5px;
+	right:5px;
+}
+
+.zf_edycja p{
+	margin: 10px 0px 5px 0px;
+}
+
+.margin_t_10_b_5{
+	margin: 10px 0px 5px 0px;
+}
+
+.margin_t_0{
+	margin-top:0px !important;
+}
+
+.obcokrajowiec{
+	margin-top:10px;
+}
+
+.szkoda_uzupelniona, .inny_rodzaj_wypadku{
+	border: 1px solid #CCC;
+	margin: -2px 5px 0px;
+	padding: 3px 5px;
+}
+
+.margin_t_10{
+	margin-top:10px !important;
+}
+
+.instrukcja_dodaj, .instrukcja_dodaj_b1, .instrukcja_dodaj_b2 {
+	padding: 10px;
+	text-align: center;
+	background: #FFF;
+	transition:0.2s;
+	cursor:pointer;
+	border: 1px solid #CCC;
+}
+.instrukcja_dodaj:hover, .instrukcja_dodaj_b1:hover, .instrukcja_dodaj_b2:hover {
+	background: #11BE11;
+	color:#FFF;
+}
+
+.opis_zdarzenia_pole, .opis_obrazen_pole{
+	margin-bottom: 10px;
+}
+
+.str_5_data_wypadku{
+	width: 200px !important;
+}
+
+.on_wyplacono_szo_data{
+	width:100px !important;
+}
+
+.wybor_umowy {
+    margin-top: 0px;
+}
+
+.twld_kreska{
+	width:100%;
+	height:1px;
+	background: #CCC;
+}
+
+.twld_kreska_e{
+	position: relative;
+	padding: 10px 10px;
+	margin:0px 20px;
+	height: 40px;
+	border-top: 1px solid #FFF;
+}
+
+.twld_kreska_e .twld_kreska_e_opcje{
+	position: absolute; 
+	top:5px;
+	right:5px;
+}
+
+.tabelka_wiersz_lista_dokumentow{
+	display:none;
+}
+
+.tabelka_wiersz_hover {
+    background: #e2e2e2 !important;
+    border-bottom: 1px solid #C9252C !important;
+}
+
+.zakladki .zakladki_element {
+	min-width:20px;
+	text-align: center;
+}
+
+.zakladki_element.aktywna {
+	font-weight: bold;
+}
+
+.edytuj_dokument{
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius:2px;
+	background: #FFF;
+}
+
+.umowa_do_edycji .strona_umowy{
+	display:block;
+	padding: 10px;
+}
+
+.zapisz_adres_kor_na_sprawie{
+	padding: 10px;
+	text-align: center;
+	background: #FFF;
+	transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #CCC;
+	display: block;
+}
+
+.zapisz_adres_kor_na_sprawie:hover{
+    background: #11BE11;
+    color: #FFF;
+}
+
+.korespondencja_o, .poszkodowany_o, .kb_poszkodowany  {
+    float: left;
+    margin-left: 10px;
+}
+
+.zz_edytuj{
+	padding: 10px;
+	text-align: center;
+	background: #FFF;
+	transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #CCC;
+	display: block;
+	
+}
+
+.zz_edytuj:hover{
+	background: #11BE11;
+	color: #FFF;
+}
+
+/*kamyk 2016-08-12*/
+.stosunki_pojazdow{
+	display:none;
+}
+
+.dochodzenie_roszczen_naglowek_tresc_tresc{
+	text-align: justify;
+}
+
+.ui-state-active {
+	background: #C9252C !important;
+	color:#FFF !important;
+}
+
+
+
+/*kamyk 2016-08-16*/
+.oc_zgloszono_szp_data{
+	
+}
+
+.ui-datepicker-today a{
+	background: #CCC !important;
+	color:#000 !important;
+}
+
+.ui-datepicker-calendar a{
+	width:25px !important;
+}
+
+.ui-datepicker-calendar span {
+    padding: 10px 4px;
+	background: #CCC;
+	margin-bottom: 0px;
+	width: 25px !important;
+	text-align: center;
+	display: block;
+	margin-left: 2px;
+}
+
+.ui-datepicker-month {
+    width: 163px;
+}
+
+/*kamyk 2016-08-17*/
+.umowa_do_edycji .ou_data_wypadku{
+	width: 78px;
+}
+
+.klonowanie_umowy{
+	margin-bottom: 10px;
+}
+
+.klonowanie_umowy_lista{
+	float:left;
+	padding: 10px 10px;
+	width: 500px;
+	border: 1px solid #CCC;
+	height: 42px;
+}
+
+.przenies_dane_umowy{
+	padding: 10px 10px;
+	border: 1px solid #CCC;
+	float:right;
+	width: 270px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.so_ku_id{
+	width:40px;
+}
+
+.przenies_dane_umowy:hover {
+    background: #11BE11;
+    color: #FFF;
+}
+
+/*KAMYK 2016-08-19*/
+.lista_jednostek_opcje {
+    padding: 5px 10px;
+    width: 805px;
+    border: 1px solid #CCC;
+    height: 31px;
+    margin-bottom: 8px;
+}
+
+.opis_zdarzenia_pole textarea, .opis_obrazen_pole textarea  {
+	width: 805px;
+}
+
+.str_5_rekomendacja_tresc {
+    border: 1px solid #CCC;
+    width: 805px;
+    resize: none;
+    padding: 10px;
+    font-family: 'Calibri';
+    font-size: 14px;
+}
+
+.str_5_zapisz_rekomendacje {
+    padding: 10px;
+    text-align: center;
+    background: #FFF;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 1px solid #CCC;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.str_5_zapisz_rekomendacje:hover {
+    background: #11BE11;
+    color: #FFF;
+}
+
+.str_5_rekomendacja p, .dane_do_oswiadczenia p {
+    padding: 5px;
+    background: #f2f2f2;
+    margin-top: 5px;
+}
+
+.dane_do_oswiadczenia{
+	margin-bottom: 8px;
+}
+
+.ddo_data, .ddo_miejscowosc_generowania, .dane_do_oswiadczenia input{
+	padding: 10px;
+	border: 1px solid #CCC;
+}
+
+.ddo_nazwisko {
+    width: 465px;
+}
+
+.ddo_ulica {
+    width: 377px;
+}
+
+.ddo_nr_domu {
+    width: 110px;
+}
+
+.ddo_nr_mieszkania {
+    width: 130px;
+}
+
+.ddo_kod_pocztowy {
+    width: 130px;
+}
+.formularz_ddo_kod {
+	float:right;
+}
+
+.ddo_miejscowosc_generowania {
+    width: 610px;
+}
+
+.ddo_miejscowosc {
+    width: 805px;
+}
+
+.informacje_o_uprawnionym_tresc_tresc {
+    padding: 10px;
+}
+
+/*kamyk 2016-085-22*/
+.prowizja_optima{
+	width:150px;
+}
+
+.imie_przelew_edytuj_widok{
+	width: 370px !important;
+}
+
+.dane_do_umowy_nr_mieszkania_edytuj_widok{
+	width: 110px !important;
+}
+
+
+/*medyk 2016-08-24*/
+
+.placowka_zabieg {
+    width: 625px;
+    height: 30px;
+    margin-top:10px !important;
+}
+.hospitalizacja {
+	width: 535px;
+	height: 30px;
+	margin-top:10px !important;
+}
+.szpital {
+    width: 470px;
+    height: 30px;
+}
+.przychodnia {
+    width: 615px;
+    height: 30px;
+}
+.dodaj_szpital, .dodaj_zabieg {
+    background-image: url(/img/dodaj.png);
+}
+.dodaj_szpital, .dodaj_zabieg {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/dodaj.png);
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+.przychodnia_data, .lecz_koniec_data, .lecz_data_plan_zak   {
+    width:120px !important;
+}
+.przychodnia_data {
+    width:120px !important;
+    height: 30px;
+}
+.placowka_zabieg_data {
+    width:120px !important;
+    height: 30px;
+    margin-top:10px !important;
+}
+.hospitalizacja_data, .hospitalizacja_data_do {
+	width:100px !important;
+	height: 30px;
+	margin-top:10px !important;
+}
+.dr_ile_kart {
+    width: 50px;
+}
+.blok {
+    display:table;
+}
+.od_kiedy_l4, .do_kiedy_l4 {
+    width: 100px !important;
+}
+.usun_szpital, .usun_zabieg {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/minus.png);
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+.picie_kierowca, .prawko_kierowca {
+	display: none;
+}
+.wazne span {
+    font-weight: bold;
+    color: #C9252C;
+}
+.zgloszenie_wiersz_elementow .data_niezdolnosci_od, .zgloszenie_wiersz_elementow .data_niezdolnosci_do {
+	position: relative;
+	float: initial;
+}
+.orzeczenie_o_niezdolnosci, .niezdolnosc_calkowita {
+	position: relative;
+	float: initial;
+}
+.io_inne_swiadczenie_nazwa, .io_kwota_swiadczenia, .io_okres_swiadczenia {
+	position: relative;
+	float: initial;
+}
+.io_okresowe_data, .io_inne_swiadczenie_nazwa {
+	display: none;
+}
+.text_wiek_obrazenia, .text_wiek_smierc {
+	position:relative;
+	float:left;
+}
+.umowa_bankowa {
+	display: none;
+}
+.nazwa_banku {
+	width: 682px;
+}
+.numer_umowy {
+	width: 672px;
+}
+.nazwa_pelnomocnika {
+	width: 440px;
+}
+.opcje_przy_zgloszeniu {
+	display: none;
+}
+.data_ub_pom, .data_wk_wl, .data_zlecenia, .data_wypowiedzenia {
+	width: 120px !important;
+}
+.dane_o_wypowiedzeniu {
+	display: none;
+}
+.ukryj{
+	display: none !important;
+}
+.dodawanie_klienta, .dodawanie_klienta_b1, .dodawanie_klienta_b2 {
+	display: none;
+}
+#rodzaj_rachunku {
+	width:70px !important;
+	float:left;
+	margin-right:13px;
+	height: 38px ! important;
+}
+.ou_spscnr_zps_dz_l {
+	width: 45px !important;
+}
+.ou_spscnr_zps_dz_w {
+	width: 200px !important;
+}
+.element_input {
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+

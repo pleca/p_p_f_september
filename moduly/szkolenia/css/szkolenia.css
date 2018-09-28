@@ -1,0 +1,858 @@
+.menu_element {
+    width: 130px;
+    color:black;
+}
+
+.oknoEdycji .tab-pane,
+.panel_body_zawartosc .tab-pane{
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+}
+
+.szkolenia_aktualnosc_pojedyncza{
+	padding: 10px;
+	width:50%;
+	float:left;
+    position: relative;
+}
+
+.szkolenia_aktualnosc_pojedyncza .well{
+	margin: 0;
+	overflow:hidden;
+	height:122px;
+	transition: 0.2s;
+	cursor:pointer;
+	-webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+	box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+}
+
+.szap_img{
+	width:37%;
+	float:left;
+	margin-right:3%;
+	margin-bottom: 3%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.szap_tresc{
+	width:100%;
+	text-align: justify;
+	padding:0 5px;
+}
+.wysiwyg-container img{
+    max-width: 100%;
+}
+.oknoEdycjiAktualnosci .miniaturaAktualnosc, .szap_img img{
+	width:100%;
+	height:auto;
+}
+
+.oknoEdycjiAktualnosci .miniaturaAktualnosc{
+    margin-bottom: 10px;
+}
+
+.lista_aktualnosci .szkolenia_aktualnosc_pojedyncza:first-child .szap_img{
+	width:100%;
+    height: 260px;
+}
+
+.lista_aktualnosci .szkolenia_aktualnosc_pojedyncza:first-child .szap_tresc{
+	width:100%;
+}
+
+.lista_aktualnosci .szkolenia_aktualnosc_pojedyncza:first-child .well{
+	height:406px;
+}
+
+.lak{
+	width:33.33%;
+}
+
+.szap_opcje{
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.szap_opcje i{
+    margin:6px;
+}
+
+.szapp {
+    width:100%;
+}
+
+.szapp .well{
+	height:auto;
+	padding:9px 14px 14px 14px;
+}
+
+.szapp .szap_tresc{
+	width:100%;
+}
+
+.szkolenia_aktualnosc_pojedyncza:last-child{
+	padding-bottom: 10px;
+}
+
+/*Panel administracyjny*/
+
+.pa_l{
+	min-height:100px;
+    width:15%;
+    margin-right: 1%;
+}
+
+.pa_l button{
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.pa_l button:last-child{
+	margin-bottom: 0;
+}
+
+
+.pa_p{
+    width:84%;
+}
+
+.pa_element{
+	position:relative;
+	float:left;
+    margin-bottom: 0;
+}
+
+.panel_administracyjny .tab-content{
+    border: 1px solid #ddd;
+    border-top:none;
+    border-radius: 0 0 4px 4px;
+    padding: 10px;
+}
+
+.panel_administracyjny .table{
+    margin-bottom: 0;
+}
+
+.wysiwyg-toolbar {
+    width: 100% !important;
+    margin:0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.wysiwyg-popup_dodaj_obraz{
+    top:0 !important;
+    left:0 !important;
+	width: 704px;
+	height: 404px;
+	bottom: 0;
+	right:0;
+	margin:auto;
+}
+
+.oknoDodajSzkolenia button,
+.oknoEdycji button,
+.oknoEdycjiSzkolenia .tab-content button,
+.oknoSzkolenia button,
+.oknoEdycjiAktualnosci button{
+    width:100%;
+    margin-top:10px;
+    border-radius: 0;
+}
+
+.oeaNrKolejnosci,
+.oeszTytul,
+.oeaTytul,
+.oeaDataWidocznosci{
+    height:40px;
+    margin-bottom: 10px;
+    border:1px solid #ddd;
+    padding: 10px;
+}
+
+.oeszTytul{
+    width: 100%;
+}
+
+.oeaTytul{
+    width:68%;
+}
+.oeaSzkolenieNazwa{
+    height:40px;
+    margin-bottom: 10px;
+    border:1px solid #ddd;
+    padding: 10px;
+}
+
+.oeaSzkolenieNazwa{
+    width:100%;
+}
+
+.oeaNrKolejnosci{
+    width:15%;
+    text-align: center;
+}
+.oeaDataWidocznosci{
+    width:17%;
+    text-align: center;
+}
+
+.wysiwyg-editor {
+    overflow: hidden;
+}
+
+.wysiwyg-editor img{
+    margin-top:10px;
+}
+
+.oknoSzkolenia .well{
+    margin-bottom: 10px;
+}
+
+.oknoSzkolenia .oszTermin .well{
+    margin-bottom: 0;
+}
+
+.wyslijWiadomoscDoOrganizatoraNazwa{
+    resize: none;
+    width: 244px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 4px;
+    height:30px;
+}
+
+.wyslijWiadomoscDoOrganizatoraTemat{
+    resize: none;
+    width: 244px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.wyslijWiadomoscDoOrganizatoraTresc{
+    resize: none;
+    width: 244px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    height:260px;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.oszPlan p{
+    margin-bottom: 0;
+}
+
+.oszPlan .media-list:last-child{
+    margin-bottom: 0;
+}
+
+.oszPlan .media-left{
+    padding-right: 40px;
+}
+
+.oszPlan .media-body .media{
+    margin-top:0;
+}
+
+.testDoSprawdzeniaPytania .tab-content,
+.testDoRozwiazaniaPytania .tab-content,
+.oknoEdycjiSzkolenia .tab-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-top: none;
+}
+
+.oknoEdycjiSzkolenia .wysiwyg-editor{
+    min-height: 200px;
+}
+
+.inputEdycja{
+    height:40px;
+    border:1px solid #ddd;
+    padding: 10px;
+}
+
+.oeszLiczbaMiejsc{
+    width:12%;
+    margin-right: 1%;
+}
+
+.szkolenieStatus{
+    width:27%;
+}
+.szkolenieTyp{
+    width:49%;
+    margin-right: 1%;
+}
+.szkolenieMiejsce{
+    width:50%;
+}
+
+.szkolenieStatus button, .szkolenieTyp button{
+    margin-top:0 !important;
+    padding: 9px;
+    border-color:#ddd;
+}
+
+.szkolenieStatus button .caret, .szkolenieTyp button .caret{
+    float:right;
+    margin-top: 8px;
+}
+
+.oeszDataOd{
+    width:29%;
+    margin-right: 1%;
+}
+
+.oeszDataDo{
+    width:29%;
+    margin-right: 1%;
+}
+
+
+#oeszMaterialy .media-list:last-child{
+    margin-bottom: 0;
+}
+
+.przyciskUpload,
+.miniaturaUpload{
+    height: 34px;
+    width:96%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0;
+}
+
+.przyciskUpload input,
+.miniaturaUpload input{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.miniaturaUploadImg img{
+    width:100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.oknoEdycji .zajawka,
+.oknoEdycjiAktualnosci .zajawka{
+    resize: none;
+
+    position: relative;
+    padding: 10px;
+    color: #141824;
+    border: 1px solid #ddd;
+    width:100%;
+    height: 80px;
+}
+
+.oknoEdycjiAktualnosci .zajawka{
+    margin-top:10px;
+}
+
+.oknoEdycjiMaterialu .wysiwyg-container{
+    margin-bottom: 10px;
+}
+
+.przyciskUploagGrupa i,
+.miniaturaUploagGrupa i {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-left: none;
+    width: 4%;
+    text-align: center;
+}
+
+
+.poleTabelaTextarea textarea{
+    width:100%;
+    height:100px;
+    border:none;
+    background: none;
+    resize: none;
+}
+
+.przyciskUploadPodglad{
+    width: 92%;
+}
+
+/*TEST*/
+.oknoDodajTest .oeaNrKolejnosci{
+    width:10%;
+}
+
+.oknoDodajTest .oeaTytul{
+    width: 90%;
+}
+
+.odtOgolneLewaKolumna{
+    width:49%;
+    margin-right: 1%;
+    float:left;
+}
+
+.odtOgolnePrawaKolumna{
+    width:49%;
+    margin-left: 1%;
+    float:right;
+}
+
+#odtEdytorPytan input,
+.odtOgolnePrawaKolumna input{
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.odtOgolneLewaKolumna .zajawka{
+    height: 160px;
+}
+
+.odtIle{
+    width:80px;
+    text-align: center;
+    float: right;
+}
+
+.odtLabel{
+    margin-top: 10px;
+}
+
+.odtTrescPytania{
+    width: 75%;
+    resize: none;
+    height: 90px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.odtDodajPytanieLewaKolumna{
+    float:left;
+    width:23%;
+}
+
+.odtDodajPytanieLewaKolumna input{
+    text-align: center;
+}
+
+.odtDodajPytanieLewaKolumna .nr_kolejnosci{
+    width: 49%;
+    margin-right: 1%;
+    float: left;
+}
+
+.odtDodajPytanieLewaKolumna .liczba_pkt{
+    width: 49%;
+    margin-left: 1%;
+    float: right;
+}
+
+.szkolenieTestyRodzaj{
+    width:100%;
+}
+
+.szkolenieTestyRodzaj button{
+    padding: 9px 10px;
+    border: 1px solid #ddd;
+}
+
+.szkolenieTestyRodzaj button .caret{
+    float:right;
+    margin-top: 8px;
+}
+
+.odtListaPytanNaglowek .odtLPEN {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+    position: static;
+    display: table-cell;
+    height:38px;
+}
+
+.odtListaPytanLista .odtListaPytanListaElement:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
+
+.odtListaPytanListaElement .odtLPE{
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.odtListaPytanLista i {
+    padding: 3px;
+}
+
+.odtListaPytanListaElement:first-child .odtLPE {
+    border-top: none;
+}
+
+.odtListaPytanLista .panel{
+    margin-bottom: 10px;
+}
+
+.odtListaPytanLista .panel:last-child{
+    margin-bottom: 0 !important;
+}
+
+.ph_naglowek_c{
+    cursor:pointer;
+    float:left;
+}
+
+.ph_naglowek{
+    float:left;
+}
+
+.odtEdytujPytanie {
+    padding: 10px 10px 0;
+}
+
+.listaPyanPanelHeading .badge {
+    padding: 4px 7px;
+}
+
+.olpElementPojedynczy textarea,
+.pytanieListaOdpowiedzi .olp_element_dodaj textarea{
+    width: 100%;
+    margin-bottom: 0 !important;
+    resize: none;
+    border: 1px solid #DDD;
+    padding: 3px 5px;
+    height: 29px;
+}
+
+.pytanieZapiszZmiany{
+    margin-top:1px;
+}
+
+.dodajOdpowiedzDoPytania{
+    margin: 0 !important;
+    height: 29px;
+    padding: 0 12px !important;
+}
+
+.rozpocznijRozwiazywanieTestu{
+    width:100%;
+    margin-top:10px;
+    border-radius: 0;
+}
+
+.testDoSprawdzeniaPytania textarea,
+.testDoRozwiazaniaPytania textarea{
+    width:100%;
+    height:300px;
+    resize: none;
+    border:1px solid #DDD;
+    padding: 10px;
+}
+
+.testDoRozwiazaniaPytania .list-group li{
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+.testDoRozwiazaniaPytania .list-group li:hover{
+    background: #f2f2f2;
+}
+
+.testDoSprawdzeniaPytania .list-group li.zaznaczonaOdp,
+.testDoRozwiazaniaPytania .list-group li.zaznaczonaOdp{
+    background: #f2f2f2;
+}
+
+.testDoRozwiazaniaPytania .list-group li.prm{
+    background: #337ab7;
+    color: #FFF;
+}
+
+.testDoRozwiazaniaPytania .ukryj_widok{
+    display:none;
+}
+
+.tpw_kolo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 25px 15px;
+    border: 5px solid white;
+    text-align: center;
+    box-shadow: 0 0 1px #000, 1px 1px 5px black inset;
+    border-radius: 90px;
+    line-height: 40px;
+    text-shadow: 0 0 10px #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.zielone {
+    background: #b6e026;
+    background: -moz-linear-gradient(top,  #b6e026 0%, #abdc28 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b6e026), color-stop(100%,#abdc28));
+    background: -webkit-linear-gradient(top,  #b6e026 0%,#abdc28 100%);
+    background: -o-linear-gradient(top,  #b6e026 0%,#abdc28 100%);
+    background: -ms-linear-gradient(top,  #b6e026 0%,#abdc28 100%);
+    background: linear-gradient(to bottom,  #b6e026 0%,#abdc28 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#abdc28',GradientType=0 );
+}
+
+.czerwone.tpw_opcje{
+    color:#FFF;
+}
+
+.czerwone {
+    background: #fe3800;
+    background: -moz-linear-gradient(top,  #fe3800 0%, #cf0404 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe3800), color-stop(100%,#cf0404));
+    background: -webkit-linear-gradient(top,  #fe3800 0%,#cf0404 100%);
+    background: -o-linear-gradient(top,  #fe3800 0%,#cf0404 100%);
+    background: -ms-linear-gradient(top,  #fe3800 0%,#cf0404 100%);
+    background: linear-gradient(to bottom,  #fe3800 0%,#cf0404 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe3800', endColorstr='#cf0404',GradientType=0 );
+}
+
+.zolte {
+    background: #ffd65e;
+    background: -moz-linear-gradient(top,  #ffd65e 0%, #febf04 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd65e), color-stop(100%,#febf04));
+    background: -webkit-linear-gradient(top,  #ffd65e 0%,#febf04 100%);
+    background: -o-linear-gradient(top,  #ffd65e 0%,#febf04 100%);
+    background: -ms-linear-gradient(top,  #ffd65e 0%,#febf04 100%);
+    background: linear-gradient(to bottom,  #ffd65e 0%,#febf04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 );
+}
+
+.testWyniki .testPojedynczyWynik{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.testWyniki .testPojedynczyWynik:last-child{
+    margin-bottom: 0;
+}
+
+.tpw_opcje{
+    border-radius: 50px;
+    height: 96px;
+    box-shadow: 0 0 1px #000;
+    border: 5px solid #fff;
+    padding: 23px 28px 23px 130px;
+    position:absolute;
+    top:2px;
+    left:0;
+    width:100%;
+    font-weight: 700;
+}
+
+.poprawna_odpowiedz::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    background: url(/img/poprawna.png) no-repeat;
+}
+
+.otwartePytanie a{
+    background: #e2e2e2;
+}
+
+.ocenaZaPytanieOtwarte input{
+    border: 1px solid #ddd;
+    padding: 2px 10px;
+    height: 34px;
+    width: 7%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.ocenaZaPytanieOtwarte p{
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.ocenOdpowiedzUzytkownika{
+    width: 86%;
+}
+
+.listaKonczacychSieSzkolen li{
+    transition: 0.5s;
+}
+
+.listaKonczacychSieSzkolen li:hover{
+    background: #f2f2f2;
+}
+
+.DodajUczesnitkaZawartosc input{
+    width:25%;
+    margin-right: 1%;
+    padding: 10px;
+    height: 40px;
+    border:1px solid #DDD;
+}
+
+.dodajUczesnitkaWyszukaj{
+    padding: 10px;
+    height: 40px;
+    width:22%;
+    border-radius: 0;
+    margin:-3px 0 0;
+}
+
+/*szkolenia lista obecnosci pdf*/
+
+.listaObecnosciPdf{
+    font-family: 'Times New Roman', serif;
+}
+
+.lo_opis_szkolenia,
+.lo_nazwa_szkolenia{
+    padding:10px 20px;
+    width:100%;
+    border:1px solid #DDD;
+    margin-bottom: 10px;
+}
+
+.lo_stopka_szkolenia{
+    padding:10px 40px 0;
+    width:100%;
+    border:1px solid #fff;
+    margin-top:10px;
+    text-align: right;
+}
+
+.lo_stopka_szkolenia span,
+.lo_nazwa_szkolenia span{
+    float:right;
+}
+
+.lo_elementy .lon_element{
+    float:left;
+    padding: 10px;
+    border:1px solid #DDD;
+}
+
+.panel-heading i{
+    color:#333;
+}
+
+
+.pojedynczyUczestnik {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 25%;
+    float: left;
+}
+
+.pojedynczyUczestnik i{
+    padding:3px;
+}
+.mailing_podpis_do_wiadomosci {
+    margin-top: 20px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.mailing_adresat_tytul, .mailing_tytul_tytul {
+    background: #FFF;
+    padding: 0px 15px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+}
+.mailing_zalaczniki_dodaj {
+    /* margin-top: 15px; */
+    padding: 10px;
+    text-align: center;
+    background: #f2f2f2;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    position: relative;
+}
+.mailing_zalaczniki_dodaj_pole {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    background: #f2f2f2;
+}
+.mailing_zalaczniki_dodaj:hover {
+    background: #11BE11;
+    color: #FFF;
+}
+.mail_napis {
+    float: left;
+    margin-right: 5px;
+    max-width: 770px;
+}
+.mail_napis {
+    margin-top: 2px;
+}
+.usun_zalacznik {
+    overflow: hidden;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #CCC;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 4px;
+}
+.usun_zalacznik span {
+    transition: 0.5s;
+    position: absolute;
+    top: -3px;
+    left: 5px;
+}
+.mailing_zalacznik {
+    float: left;
+    padding: 5px;
+    height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

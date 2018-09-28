@@ -1,0 +1,64 @@
+#commission-calculator .table thead th{
+    text-align: center;
+    vertical-align: middle;
+}
+#commission-calculator .table thead th:first-child{
+    background-color: white;
+    border-top: none;
+    background-color: white;
+}
+#commission-calculator .table th{
+    background-color: #f5f5f5;
+    border: 0px;
+}
+#commission-calculator .table td{
+    text-align: center;
+
+    vertical-align: middle;
+}
+#commission-calculator .calculator-inputs{
+    margin-bottom: 30px;
+    background-color: #a71016;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+#commission-calculator .calculator-inputs label{
+    width: 100%;
+}
+#commission-calculator .calculator-inputs input{
+    width: 100%;
+    font-size: 24px;
+    text-align:center;
+}
+#commission-calculator input:valid:hover, #commission-calculator input:invalid:hover{
+    background-color: #ad2127;
+}
+#commission-calculator input:valid, #commission-calculator input:invalid {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5px 5px 5px 25px;
+}
+.commission-calculate button{
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    color: #c9252c;
+    border: 2px solid #ad2127;
+    background-color: white;
+    cursor: pointer;
+}
+.commission-calculate button:hover{
+    background-color: #ad2127;
+    color: white;
+}
+.commision-offer-type-div{
+    background-color: #a71016;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.commission-calculate {
+    padding-right: 0px;
+}

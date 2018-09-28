@@ -1,0 +1,2 @@
+var raporty = new Raporty();
+

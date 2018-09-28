@@ -1,0 +1,900 @@
+body {
+    background: rgba(0,0,0,0.7);
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+body p{
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+input{
+    border-radius: 0 !important;
+}
+
+ol{
+    list-style-type: upper-greek !important;
+}
+
+.float_l{
+    float: left !important;
+}
+
+.float_r{
+    float: right !important;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.col-md-10 {
+    width: 83.33333333%;
+}
+.col-md-9 {
+    width: 75%;
+}
+
+.col-md-8 {
+    width: 66.66666667%;
+}
+
+.col-md-7 {
+    width: 58.33333333%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-5 {
+    width: 41.66666667%;
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+}
+
+.col-md-2 {
+    width: 16.66666667%;
+}
+
+.col-md-1 {
+    width: 8.33333333%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    margin-bottom: 5px !important;
+}
+.clear_b{
+    clear: both;
+}
+.margin_b_0{
+    margin-bottom: 0 !important;
+}
+.margin_b_4{
+    margin-bottom: 4px !important;
+}
+.margin_b_60{
+    margin-bottom: 60px !important;
+}
+.margin_b_10{
+    margin-bottom: 10px !important;
+}
+.margin_b_20{
+    margin-bottom: 20px !important;
+}
+.margin_t_0{
+    margin-top: 0 !important;
+}
+.margin_t_2{
+    margin-top: 2px !important;
+}
+.margin_t_60{
+    margin-top: 60px !important;
+}
+.margin_b_80{
+    margin-bottom: 80px !important;
+}
+.margin_t_10{
+    margin-top: 10px !important;
+}
+
+.margin_t_120 {
+    margin-top: 120px !important;
+}
+.margin_t_20{
+    margin-top: 20px !important;
+}
+.margin_l_10{
+    margin-left:10px !important;
+}
+.margin_l_20{
+    margin-left:20px !important;
+}
+
+.font_size_10{
+    font-size: 10px !important;
+}
+.margin_t_30 {
+    margin-top: 30px !important;
+}
+.font_size_19{
+    font-size: 19px !important;
+}
+.padding_l_3 {
+    padding-left: 3px !important;
+}
+.margin_t_3 {
+    margin-top: 3px !important;
+}
+.font_size_26{
+    font-size: 26px !important;
+}
+.color_white {
+    color: #FFF !important;
+}
+.pola_typu_umowy_w_1 {
+    position: absolute;
+    top: 130px;
+    margin-left: 270px;
+}
+.pola_typu_umowy_w_2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 270px;
+}
+.line_height_1_2{
+    line-height: 1.2;
+}
+.margin_l_65 {
+    margin-left: 65px !important;
+}
+.margin_l_0 {
+    margin-left: 0px !important;
+}
+.margin_t_m30 {
+    margin-top: -30px !important;
+}
+.height_200 {
+    height: 200px !important;
+}
+.height_1200 {
+    height: 1200px !important;
+}
+.height_20 {
+    height: 20px !important;
+}
+.height_180 {
+    height: 180px !important;
+}
+.font_w_700{
+    font-weight: 700;
+}
+.text_a_right{
+    text-align: right !important;
+}
+.text_a_center{
+    text-align: center !important;
+}
+.paddding_r_0{
+     padding-right: 0 !important;
+ }
+.paddding_l_0{
+    padding-left: 0 !important;
+}
+.paddding_t_0{
+    padding-top: 0 !important;
+}
+.igorny {
+    vertical-align: super !important;
+    font-size: x-small;
+}
+
+.pdf_strona {
+    background: #FFF;
+    width: 991px;
+    height: 1403px;
+    position: relative;
+    padding: 30px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pdf_strona_zalacznik .pdf_strona_pierwsza_naglowek{
+    position: relative;
+    height: 140px;
+}
+
+.pdf_strona_pierwsza_naglowek {
+    height: 190px;
+}
+
+.pdf_strona_pierwsza_naglowek_pouczenie{
+    height: 70px;
+}
+.pdf_strona_pierwsza_naglowek_pouczenie p{
+    line-height: 1;
+}
+
+.pdf_strona_stopka{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+}
+
+.pdf_strona_stopka_wersja{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.pdfs_logo{
+    position: absolute;
+    top: 0;
+    right: 50;
+}
+
+.pdfs_logo_osobowe{
+    position: absolute;
+    top: 50;
+    right: 50;
+}
+
+.pdfs_logo_laur{
+    position: absolute;
+    top: 0;
+    left: 50;
+}
+
+.pdfs_logo_kairp{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pdfs_przedstawiciel_dane .pdf_kratka{
+    width:220px;
+}
+
+.pdf_kratka{
+    padding: 4px;
+    border:1px solid #333;
+    height: 30px;
+}
+.pdf_kratka_niska{
+     padding: 2px 0 2px 20px;
+     border:1px solid #333;
+     height: 18px;
+ }
+.pdf_kratka_zdarzenie{
+    padding: 2px 0 2px 20px;
+    border:1px solid #333;
+    height: 26px;
+}
+
+.pdf_duze_litery{
+    text-transform: uppercase;
+}
+.ramka {
+    border:1px solid #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pdf_male_litery{
+    text-transform: lowercase;
+}
+.pdfs_tytu_dokumentu{
+    text-align: center;
+    margin-top:-120px;
+}
+.pdfs_tytul_dokumentu{
+    text-align: center;
+    margin-top:-120px;
+}
+.pdfs_tytu_dokumentu_zalacznik{
+    text-align: center;
+    margin-top:-40px;
+}
+
+.pdfs_tytu_dokumentu p:first-child{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.pdfs_tytu_dokumentu_zalacznik p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pdfs_tytu_dokumentu p{
+    font-size: 14px;
+}
+.pdfs_tytul_dokumentu p{
+    font-size: 22px;
+}
+
+.pdf_tytul_dokumentu_pouczenie p{
+    font-size: 24px !important;
+    font-weight: 700;
+}
+
+.pdf_kratka_duza{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+.pdf_kratka_mniejsza{
+    position: relative;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.pdf_czerwona_kratka{
+    border: 1px solid #AC273F;
+    border-left: 5px solid #AC273F;
+}
+
+.pdf_szara_kratka {
+    border: 1px solid #636466;
+    border-left: 5px solid #636466;
+}
+
+.pdf_szary_napis{
+    color:#636466 !important;
+}
+
+.pdf_czerowny_napis{
+    color:#AC273F !important;
+}
+
+.pdf_kreska{
+    border-bottom: 1px solid #333;
+}
+
+.pdf_kratka_duza_naglowek{
+    background: #AC273F !important;
+    padding: 10px;
+    color: #FFF !important;
+}
+.kratka_naglowek{
+    padding: 0 0 10px 0;
+}
+
+.pdf_znak_wodny{
+    position: absolute;
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+    top:80px;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+}
+
+.pdf_znak_wodny p{
+    color: #ccc !important;
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+
+.pdf_znak_wodny p:first-child{
+    font-size: 220px;
+}
+/*UMOWA MAXIMA*/
+.pdf_tytul_maxima {
+    margin-top: -20px;
+}
+.pdf_strona_pierwsza_naglowek_maxima {
+    height: 100px;
+}
+/*UMOWA PRZELEWU WIERZYTLENOSCI BLS*/
+.pdf_tytul_bls {
+    margin-top: -20px;
+}
+.pdf_tytul_przelew {
+    margin-top: -30px;
+}
+.pdf_strona_pierwsza_naglowek_bls {
+    height: 100px;
+}
+.podtytul_formularza {
+    color: #FFF !important;
+    padding-top:3px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+.tlo_podtytulu_szare {
+    background-color: #636466 !important;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.tlo_podtytulu_czerwone {
+    background-color: #AC273F !important;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.wysokosc_20 {
+    height: 20px;
+}
+.font_size_12 {
+    font-size: 12px !important;
+}
+.font_size_18 {
+    font-size: 18px !important;
+}
+.font_size_20 {
+    font-size: 20px !important;
+}
+.padding_t_10 {
+    padding-top: 10px;
+}
+.font_size_8 {
+    font-size: 8px !important;
+}
+.width_30 {
+    width: 30%;
+}
+/*UMOWA BONA*/
+.pdf_tytul_bona {
+    margin-top: -20px;
+}
+.pdf_strona_pierwsza_naglowek_bona {
+    height: 100px;
+}
+.pdf_kratka_duza_naglowek_zgloszenie{
+    background: #AC273F !important;
+    padding: 5px;
+    color: #FFF !important;
+}
+.margin_t_5 {
+    margin-top: 5px !important;
+}
+.pdf_kratka_szara_duza_naglowek_zgloszenie {
+    background: #636466 !important;
+    padding: 5px;
+    color: #FFF !important;
+}
+.margin_t_50 {
+    margin-top: 50px !important;
+}
+.margin_t_40 {
+    margin-top: 40px !important;
+}
+.padding_l_0 {
+    padding-left: 0 !important;
+}
+.no_bold {
+    font-weight: normal !important;
+}
+.pdfs_przedstawiciel_dane .pdf_kratka_podpis{
+    width:100%;
+    padding: 4px;
+    border:1px solid #333;
+    height: 30px;
+}
+.font_size_12 {
+    font-size: 12px !important;
+}
+
+/* CESJA POWIERNICZA */
+.pdf_tytul_pelnomocnictwo {
+    margin-top: 0;
+}
+.pdf_strona_pierwsza_naglowek_pelnomocnictwo {
+     height: 60px;
+ }
+.pdf_strona_pierwsza_naglowek_pouczenie {
+    height: 20px;
+}
+.pdf_tytul_cesja {
+    margin-top: -20px;
+}
+.pdf_strona_pierwsza_naglowek_cesja {
+    height: 100px;
+}
+.margin_t_40 {
+    margin-top: 40px;
+}
+/*UMOWA OFE*/
+
+.font_size_22 {
+    font-size: 22px !important;
+}
+.padding_b_0 {
+    padding-bottom:0 !important;
+}
+.margin_r_10 {
+    margin-right:10px !important;
+}
+.margin_t_35 {
+    margin-top: 35px !important;
+}
+.bottom_60 {
+    bottom: 60px !important;
+    position: absolute;
+}
+.margin_top_260 {
+    margin-top: 260px !important;
+}
+.pdf_tytul_oswiadczenie {
+    margin-top: 0;
+}
+.pdf_strona_pierwsza_naglowek_oswiadczenie {
+    height: 60px;
+}
+.form-group label {
+    margin-bottom: 0px !important;
+}
+
+/*OSOBOWA*/
+
+.odstep {
+    padding: 10px;
+}
+
+.szary_box {
+    background-color: #ececec !important;
+}
+.kratka_nowy {
+    background-color: #ffffff !important;
+    border-color: #c9c9c9;
+}
+.szary_box_ramka_czerw {
+    border-left: 20px solid #AC273F;
+    border-right: 20px solid #AC273F;
+}
+
+.triang_box {
+   width: 100%;
+}
+.triang_czer {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 24px 24px 0 0;
+    border-color: #AC273F transparent transparent transparent;
+    border-left: 50px solid #AC273F;
+    float: left;
+    background-color: #fff !important;
+}
+
+.triang_digit {
+    float: left;
+    background-color: #fff !important;
+    height: 24px !important;
+    padding: 2px;
+    font-size: 18px;
+    color: #000;
+}
+.triang_czar {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 24px 24px;
+    border-color: transparent transparent #000 transparent;
+    float: left;
+    background-color: #fff !important;
+}
+.triang_czar_text {
+    font-weight: bold;
+    padding-top: 3px;
+    background-color: #000 !important;
+    color: #fff !important;
+    height: 24px;
+    width: 100%;
+}
+.padding_box_text {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.padding_6 {
+    padding: 6px;
+}
+
+.big_kratka {
+    height: 60px;
+}
+.medium_kratka {
+    height: 80px;
+}
+.large_kratka {
+    height: 100px;
+}
+.height_100 {
+    height: 100px !important;
+}
+.super_big_kratka {
+    height: 150px !important;
+}
+.center {
+    text-align: center;
+}
+.margin_b_300 {
+    margin-bottom: 300px !important;
+}
+.font_size_18 {
+     font-size: 18px !important;
+ }
+.font_size_24 {
+    font-size: 24px !important;
+}
+.width_90_p {
+    width:90% !important;
+}
+.margin_t_80 {
+    margin-top: 80px !important;
+}
+.margin_t_15{
+    margin-top: 15px !important;
+}
+.margin_r_30 {
+    margin-right: 30px !important;
+}
+.date_square_field{
+    padding: 5px 9px;
+    border: 1px solid;
+    margin-right: 3px
+}
+.ex_for_client_l{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position:absolute;
+    left: -85px;
+    top: 79%;
+    opacity: .2;
+    font-weight: 700
+}
+.ex_for_client_r{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position:absolute;
+    right: -85px;
+    top: 79%;
+    opacity: .2;
+    font-weight: 700
+}
+.ex_for_votum_l{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position:absolute;
+    left: -85px;
+    top: 35%;
+    opacity: .2;
+    font-weight: 700
+}
+.ex_for_votum_r{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position:absolute;
+    right: -85px;
+    top: 35%;
+    opacity: .2;
+    font-weight: 700
+}
+.margin_t_70 {
+    margin-top: 70px !important;
+}
+.height_80 {
+    height: 80px !important;
+}
+.margin_b_5 {
+    margin-bottom:5px !important;
+}
+.kreska_pionowa {
+    height: 100%;
+    width: 2px;
+    background-color: #0f0f0f;
+}
+.padding_l_40 {
+    padding-left:40px !important;
+}
+.padding_r_40 {
+    padding-right:40px !important;
+}
+.margin_l_5 {
+    margin-left: 5px;
+ }
+.text_align_justify {
+    text-align: justify !important;
+}
+.padding_t_10 {
+    padding-top: 10px !important;
+}
+.padding_b_10 {
+    padding-bottom: 10px !important;
+}
+.numerowanie {
+    list-style-type: decimal !important;
+}
+ol.roman {list-style-type: upper-roman !important}
+.numerowanie li {
+    margin-left: 0px !important;
+}
+.numerowanie_alfabet_male {
+    list-style-type: lower-alpha !important;
+}
+.margin_t_150 {
+    margin-top: 150px !important;
+}
+.margin_t_10 {
+    margin-top: 10px !important;
+}
+.border {
+    border-right: 2px solid #000000;
+    height: 120px !important;
+}
+.padding_t_10 {
+    padding-top: 10px !important;
+}
+.padding_l_10 {
+    padding-left: 10px !important;
+}
+.padding_r_10 {
+    padding-right: 10px !important;
+}
+.stopka_pionowa {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -50px;
+    bottom: 6%;
+    font-size: 12px;
+}
+.stopka_pozioma_dol {
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
+}
+.border_t {
+    border-top: 1px solid #000000 !important;
+    margin-right: 15px !important;
+}
+.width_20_p {
+    width: 20% !important;
+}
+.height_40 {
+    height: 40px !important;
+}
+.index_gorny {
+    font-size: 10px !important;
+    vertical-align: super !important;
+}
+.font_size_16 {
+    font-size: 16px !important;
+}
+
+.ramka {
+    border: 2px solid #AC273F;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    z-index: 9999 !important;
+}
+
+.ex_for_votum_l{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position:absolute;
+    left: -140px;
+    top: 35%;
+    font-weight: 700;
+}
+.ex_for_votum_r{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position:absolute;
+    right: -380px;
+    top: 35%;
+    font-weight: 700;
+}
+.example_1 {
+    position: absolute;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    top: 39%;
+    left: 10%;
+}
+.example_1 p {
+    font-size: 160px;
+    color: #ececec !important;
+    position: relative;
+    font-weight: 700;
+    z-index: -99999 !important;
+}
+.example_2 {
+    position: absolute;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    top: 81%;
+    left: 10%;
+}
+.example_2 p {
+    font-size: 160px;
+    color: #ececec !important;
+    position: relative;
+    font-weight: 700;
+    z-index: -99999 !important;
+}
+.ramka_small {
+    border: 2px solid #AC273F;
+    height: 100px;
+    width: 600px;
+}
+.width_40_p {
+    width: 40% !important;
+}
+.width_60_p {
+    width: 60% !important;
+}
+.stopka_bottom_right {
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+    font-size: 12px;
+}
+.date_place {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.font_red {
+    color: #AC273F !important;
+}
+.line_height_28 {
+    line-height: 28px !important;
+}
+.przekreslenie {
+    text-decoration: line-through !important;
+}
+.padding_10 {
+    padding: 5px !important;
+}
+.font_w_800 {
+    font-weight: 800 !important;
+}
+.width_300 {
+    width: 300px !important;
+}
+.underline {
+    text-decoration: underline !important;
+}
+

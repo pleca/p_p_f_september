@@ -1,0 +1,770 @@
+/*ARKUSZ STYLI DLA MODULU MAILING*/
+
+.body_strona_r_tresc_tlo{
+	background: #FFF;
+	border-radius:2px;
+	padding: 10px;
+}
+
+i{
+	font-style: italic ;
+}
+
+ul{
+	list-style: disc;
+	padding-left: 30px;
+	margin-bottom: 16px;
+}
+
+ol{
+	list-style: numeric;
+	padding-left: 30px;
+	margin-bottom: 16px;
+}
+
+blockquote{
+	margin: 10px 40px;
+	padding: 10px;
+	border-left: 4px solid rgb(204, 204, 205);
+	font-style: italic;
+}
+
+#editor1{
+	padding: 10px;
+}
+
+
+
+.wysiwyg-toolbar-icon{
+	
+}
+
+.plywajacy_pasek{
+	position:fixed;
+	margin-top: -515px;
+	box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+.mailing_tytul_pole{
+	width: 785px;
+	border:none;
+	padding: 5px;
+}
+
+.mailing_adresat_pole{
+	border:none;
+	padding: 5px;
+	width: 785px;
+}
+
+.mailing_tytul, .mailing_adresat{
+	margin-bottom: 10px;
+}
+
+.mailing_adresat{
+	margin-top:15px;
+	border:1px solid #CCC;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.mailing_tytul{
+	margin-top:10px;
+	border:1px solid #CCC;
+	padding: 10px;
+	position: relative;
+}
+
+.mailing_adresat_tytul, .mailing_tytul_tytul{
+	background: #FFF;
+	padding: 0px 15px;
+	position: absolute;
+	top:-12px;
+	left:10px;
+}
+
+.mailing_wyslij{
+	padding: 10px;
+	text-align: center;
+	background: #FFF;
+	transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #CCC;
+	margin-top:15px;
+}
+
+.mailing_odbiorca_dodaj{
+	/*margin-top: 15px;*/
+	padding: 10px;
+	text-align: center;
+	background: #f2f2f2;
+	transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #CCC;
+}
+
+.mailing_wyslij:hover {
+    background: #11BE11;
+	color: #FFF;
+}
+
+.mailing_odbiorca_dodaj:hover {
+    background: #11BE11;
+	color: #FFF;
+}
+
+
+
+#mailing_odbiorca_lista_tlo{
+	position:fixed;
+	top:0px;
+	left:0px;
+	bottom: 0px;
+	right: 0px;
+	z-index: -2;
+}
+
+.mailing_odbiorca_lista_tlo{
+	position:fixed;
+	background: rgba(0,0,0,0.5);
+	top:0px;
+	left:0px;
+	bottom: 0px;
+	right: 0px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	z-index:8;
+}
+
+.wyswietl_mailing_odbiorca_lista{
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+.mailing_odbiorca_lista_okno{
+	position:relative;
+	margin: 80px auto;
+	background: #FFF;
+	width:800px;
+	min-height: 100px;
+	padding: 10px;
+	visibility: hidden;
+	opacity: 0;
+	z-index:9;
+	transition: 0.2s;
+}
+
+.mailing_odbiorca_lista_okno_belka_top {
+    background: #CCC;
+    height: 20px;
+    padding: 10px;
+}
+
+.mailing_odbiorca_lista_okno_belka_top_tytul {
+    float: left;
+    width: 275px;
+}
+
+.mailing_odbiorca_lista_okno_zamknij {
+    float: right;
+    padding: 10px 17px 11px;
+    margin-top: -10px;
+    margin-right: -10px;
+    border-left: 1px solid #FFF;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.mailing_odbiorca_lista_okno_zamknij:hover {
+    background: #C9252C;
+    color: #FFF;
+}
+
+.mailing_odbiorca_wpisany_recznie{
+	margin-top:10px;
+	margin-bottom: 10px;
+	position:relative;
+	overflow: hidden;
+}
+
+.mailing_odbiorca_wpisany_recznie_pole{
+	width:800px;
+	padding: 11px;
+	padding-right: 40px;
+	border:none;
+	float:left;
+	border:1px solid #CCC;
+}
+
+.mailing_odbiorca_wpisany_recznie_dodaj{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+.mailing_odbiorca_wpisany_recznie_pole:valid {
+    background-color: #FFF;
+
+}
+
+.mailing_odbiorca_wpisany_recznie_pole:invalid {
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(255, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(255, 0, 0, 1);
+	box-shadow:         0px 0px 2px 0px rgba(255, 0, 0, 1);
+}
+
+.mail_nie_wyslany_ikona {
+    background-image: url(/moduly/mailing/img/blad.png);
+    position: relative;
+    width: 24px;
+    height: 24px;
+    float:left;
+}
+
+.mail_wyslany_ikona {
+    background-image: url(/moduly/mailing/img/poprawna.png);
+    position: relative;
+    width: 24px;
+    height: 24px;
+    float:left;
+}
+
+.mail_napis{
+	margin-top:2px;
+}
+
+.bledny_mail_napis, .poprawny_mail_napis{
+	float:left;
+	margin-right: 10px;
+	margin-top:2px;
+}
+
+.mail_wyslany, .mail_nie_wyslany {
+    position: absolute;
+    bottom: 35px;
+    left: -244px;
+    background: rgba(0,0,0,0.7);
+    color: #FFF;
+    padding: 10px;
+    wisibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    width: 500px;
+    z-index: -1;
+}
+
+.mail_wyslany:after, .mail_nie_wyslany:after{
+	content: '';
+	border-top: 10px solid rgba(0,0,0,0.7);
+	position: absolute;
+	bottom: -10px;
+	left: 246px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+.mail_wyslany_ikona:hover .mail_wyslany, .mail_nie_wyslany_ikona:hover .mail_nie_wyslany{
+	wisibility:visible;
+    opacity:1;
+    z-index: 1;
+}
+
+.mailing_zalacznik, .mailing_odbiorca_email{
+	float:left;
+	padding: 5px;
+	height: 24px;
+}
+
+.mail_napis{
+	float:left;
+	margin-right:5px;
+	max-width: 770px;
+}
+
+.usun_zalacznik, .usun_mail{
+	overflow: hidden;
+	width:17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #CCC; 
+	float:left;
+	position: relative;
+	cursor: pointer;
+	transition: 0.2s;
+	margin-top:4px;
+}
+
+.usun_zalacznik:hover, .usun_mail:hover{
+	transform: rotate(360deg);
+}
+
+
+.usun_zalacznik span, .usun_mail span{
+	transition: 0.5s;
+	position:absolute;
+	top: -3px;
+	left: 5px;
+}
+
+.mailing_odbiorca_dodaj_z_pliku_csb, .mailing_zalaczniki_dodaj{
+	/*margin-top: 15px;*/
+	padding: 10px;
+	text-align: center;
+	background: #f2f2f2;
+	transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #CCC;
+	overflow: hidden;
+	position: relative;
+}
+
+.mailing_odbiorca_dodaj_z_pliku_csb{
+	margin-top:0px;
+}
+
+.mailing_odbiorca_dodaj_z_pliku_csb:hover, .mailing_zalaczniki_dodaj:hover{
+	background: #11BE11;
+	color: #FFF;
+}
+
+.mailing_odbiorca_dodaj_z_pliku_csb_pole, .mailing_zalaczniki_dodaj_pole{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+	opacity:0;
+	cursor: pointer;
+	background: #f2f2f2;
+}
+
+
+
+.edytor_podpis .wysiwyg-editor{
+	height:400px;
+}
+
+.edytor_podpis .plywajacy_pasek {
+    position: absolute !important;
+    margin-top: -1px !important;
+    box-shadow:none;
+}
+
+.edytor_podpis .wysiwyg-toolbar {
+	width:783px !important;
+}
+
+.epp_edytor{
+	display:none;
+	padding: 10px;
+	position: relative;
+}
+
+.mailing_grupa_pojedyncza, .mailing_wyslany_pojedynczy, .ls_pojedynczy, .ep_pojedynczy{
+	margin-bottom: 10px;
+	background: #f2f2f2;
+}
+
+.mailing_wyslany_pojedynczy{
+	padding-top:10px; 
+}
+
+.mailing_grupa_pojedyncza:last-child, .mailing_wyslany_pojedynczy:last-child, .ls_pojedynczy:last-child, .ep_pojedynczy:last-child{
+	margin-bottom: 0px !important;
+}
+
+.mailing_grupa_pojedyncza:nth-child(odd), .mailing_wyslany_pojedynczy:nth-child(odd), .ls_pojedynczy:nth-child(odd), .ep_pojedynczy:nth-child(odd){
+	margin-bottom: 10px;
+	background: #e2e2e2;
+}
+
+.mgp_nazwa, .mwp_temat, .lsp_nazwa, .epp_nazwa{
+	padding: 10px;
+	cursor:pointer;
+}
+
+.mwp_temat{
+	padding-top: 0px;
+}
+
+.eppe_nazwa{
+	padding: 10px;
+	border:1px solid #CCC;
+	margin-bottom: 10px;
+	width: 785px;
+}
+
+.mailing_wyslij_testowy, .epp_zapisz_szablon, .epp_zapisz_nowy_szablon, .epp_zapisz_nowy, .epp_zapisz{
+	margin-top:10px;
+	padding: 10px;
+	border:1px solid #CCC;
+	text-align: center;
+	cursor: pointer;
+	background: #f2f2f2;
+	transition:0.2s;
+}
+
+.mailing_wyslij_testowy:hover, .epp_zapisz_szablon:hover, .epp_zapisz_nowy_szablon:hover, .epp_zapisz_nowy:hover, .epp_zapisz:hover{
+	background: #11BE11;
+	color: #FFF;
+}
+
+.edytuj_podpis{
+	float:right;
+	margin-top: -5px;
+	margin-right: -5px;
+}
+
+.mailing_podpis{
+	margin-top: 15px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 15px;
+	height: 51px;
+}
+
+.mailing_podpis select{
+	padding: 5px 10px;
+	border: none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: transparent;
+	width: 803px;
+}
+
+.mailing_podpis select option{
+	padding: 10px;
+}
+
+.usun_podpis{
+	position: absolute;
+	right: 14px;
+	top: 14px;
+}
+
+.podpis_usun_tak{
+	width:182px;
+}
+
+.podpis_usun_tak.wysun{
+	top: 47px;
+	right: 10px;
+}
+
+.mailing_podpis_domyslny{
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.mailing_wyslij_testowy{
+	margin-top:15px;
+}
+
+.mailing_wyslij_testowy_zgodnosc{
+	margin-top:10px;
+}
+
+.mailing_wyslij_testowy_zgodnosc, .mailing_wyslij{
+	display:none;
+}
+
+.mailing_naglowek{
+	position: relative;
+	padding: 10px;
+	background: #CCC;
+	height: 40px;
+	margin-bottom: 15px;
+	
+}
+
+.mailing_zapisz_schemat{
+	position: absolute;
+	top:5px;
+	right: 5px;
+}
+
+.lsp_tresc{
+	padding: 0px 10px 10px 10px;
+}
+
+.lspn_nazwa, .lspt_tresc{
+	padding: 10px;
+	background: #FFF;
+	border-radius:2px;
+	position: relative;
+}
+
+.lsp_nazwa{
+	height: 20px;
+	position: relative;
+}
+
+.ls_pojedynczy:last-child{
+	margin-bottom: 0px;
+}
+
+.mailing_edytuj{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+
+.mwp_informacje{
+	padding: 0px 10px 10px 10px;
+}
+
+.mwpi_lista_odbiorcow, .mwpi_tresc, .mwpi_nadawca{
+	padding: 10px;
+	background: #FFF;
+	border-radius:2px;
+}
+
+.mwp_temat.rozwiniete{
+	padding: 10px;
+	background: #FFF;
+	border-radius:2px;
+	margin:0px 10px 4px 10px;
+}
+
+.mwpi_lista_odbiorcow, .mwpi_tresc{
+	margin-top:4px;
+}
+
+.mwpi_lista_odbiorcow{
+	position: relative;
+}
+
+.mwpi_lista_odbiorcow .bledny_mail,.mwpi_lista_odbiorcow .poprawny_mail{
+	float:left;
+	margin-right: 5px;
+}
+
+.mwp_informacje{
+	display:none;
+}
+
+.mailing_grupa_pojedyncza{
+	position: relative;
+}
+
+.edytuj_mailing_grupa{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+/*
+.pasek_opcji{
+	position:fixed;
+	margin-top:200px;
+	margin-left: -390px;
+	transition:1s;
+	background: #FFF;
+	border:1px solid #CCC;
+	transform:rotate(90deg);
+}
+
+.pasek_opcji .wysiwyg-toolbar-icon{
+	transition:1.5s;
+	transform:rotate(-90deg);
+}
+
+.wysiwyg-toolbar{
+	transition:1s;
+}
+
+.wysiwyg-toolbar-icon{
+	transition:1.5s;
+}
+
+*/
+
+/*kamyk 2016-09-09*/
+.mailing_usun_schemat{
+	position: absolute;
+	top: 5px;
+	right: 40px;
+}
+
+/*kamyk 2016-09-12*/
+.mwpi_lista_zalacznikow{
+	margin-top:4px;
+	padding: 10px;
+	background: #FFF;
+	border-radius: 2px;
+}
+
+.mailing_wyslij_jako_udw{
+	display:none;
+	margin-top:10px;
+	float:left;
+	margin-right:10px;
+}
+
+.zalacznik{
+	width: 25px;
+	height: 25px;
+	display: block;
+	transition: 0.2s;
+	background-image: url(/moduly/mailing/img/zalacznik.png);
+	background-size: 100% 100%;
+	float: right;
+	margin-top: -2px;
+	margin-right: -2px;
+}
+
+
+.mailing_wyslij_priorytet{
+	display:none;
+	margin-top:10px;
+}
+
+.wyslij_jako_udw_liczba_w_paczce{
+	border:1px solid #CCC;
+	width: 50px;
+}
+
+.wyslij_jako_udw_l_paczki{
+	margin-top:10px;
+	display:none;
+	float:left;
+}
+
+/*kamyk 2016-09-16*/
+.wyslij_ponownie{
+	padding: 10px;
+	background: #FFF;
+	text-align: center;
+	margin-top:10px;
+	border-radius:2px;
+	transition:0.2s;
+	cursor:pointer;
+}
+
+.wyslij_ponownie:hover{
+	background: #11BE11;
+	color: #FFF;
+}
+
+.mol_element_grupy{
+	text-align: center;
+	padding: 10px 0px;
+	margin-top:10px;
+	background: #f2f2f2;
+	cursor: pointer;
+	transition: 0.2s;
+	width: 31.3%;
+	margin:1%;
+	float:left;
+}
+
+.mol_element_grupy:nth-child(2n+0){
+	background: #e2e2e2;
+}
+
+.mol_element_grupy:hover{
+	background: #11BE11;
+	color: #FFF;
+}
+
+.mol_struktury{
+	margin-top:20px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	position:relative;
+}
+
+.mols_nazwa{
+	position:absolute;
+	top:-10px;
+	left:10px;
+	padding: 0px 10px;
+	background: #FFF;
+}
+
+.molsl_pojedyncza{
+	float:left;
+	width: 31.3%;
+	margin:1%;
+	text-align: center;
+	background: #f2f2f2;
+	padding: 10px 0px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.molsl_pojedyncza:nth-child(2n+0){
+	background: #e2e2e2;
+}
+
+.molsl_pojedyncza:hover{
+	background: #11BE11;
+	color: #FFF;
+}
+
+.mols_lista{
+	height:400px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.mailing_odbiorca_a_input, .mailing_dw_a_input{
+	border:1px solid #CCC;
+	padding: 6px 10px;
+	float:left;
+	width: 745px;
+}
+
+.dodaj_mailing_odbiorca_a, .dodaj_mailing_dw_a{
+	float:right;
+	background-color: #f2f2f2;
+}
+
+.mailing_podpis_do_wiadomosci {
+    margin-top: 20px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mailing_odbiorca_do_wiadomosci_email {
+    float: left;
+    padding: 5px;
+    height: 24px;
+}
+
+/*kamyk 2016-09-19*/
+.mailing_pojedynczy_odbiorca{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,515 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	font-size: 15px;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.required{
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(201, 37, 44, 1);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(201, 37, 44, 1);
+	box-shadow:         0px 0px 2px 0px rgba(201, 37, 44, 1);
+}
+
+.clear_b{
+	clear:both;
+}
+/*STRONA*/
+
+body{
+	background: rgba(0,0,0,0.7);
+}
+
+.uo_strona{
+	background: #FFF;
+	width:920px;
+	height:1349px;
+	position: relative;
+	padding: 40px;
+	line-height: 1.2;
+	font-family: 'Carlito'; font-weight: normal; 
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.uo_strona_znak_wodny{
+	color:#CCC;
+	position: absolute;
+	-webkit-transform:rotate(-56deg);
+	transform:rotate(-56deg);
+	bottom:100px;
+	left:30px;
+	font-family: 'Carlito'; font-weight: normal; 
+	z-index: 0;
+	font-size: 120px;
+	height:920px;
+	width:1649px;
+}
+
+.uo_strona_tresc{
+	z-index: 1;
+	position: relative;
+}
+
+.uo_logo_votum{
+	width: 214px;
+	height: 39px;
+	background: url(../../img/logo.png);
+	position:absolute;
+	top:40px;
+	right:40px;
+}
+
+.uo_identyfikator_przedstawiciela{
+	height: 20px;
+	padding:4px;
+	width:258px;
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 20px;
+}
+.uo_identyfikator_przedstawiciela:AFTER{
+	position:absolute;
+	top:24px;
+	left:4px; 
+	font-size:12px;
+	font-family: 'Carlito'; 	
+	content: 'IDENTYFIKATOR PRZEDSTAWICIELA';
+}
+.uo_tytul_strony_optima{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.uo_tytul_strony_optima p:first-child{
+	font-size: 26px;
+}
+
+.uo_tytul_strony_optima p{
+	font-family: 'Carlito'; font-weight: 700;
+}
+.uo_na_podstawie_zamowienia{
+	margin-top:10px;
+	overflow: hidden;
+}
+
+.uo_na_podstawie_zamowienia p{
+	float:left;
+	margin-right: 4px;
+}
+
+.uo_zleceniodawca{
+	margin-top:14px;
+	border:1px solid #AC273F;
+	padding: 10px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.uo_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.uo_zleceniodawca .uo_napis{
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.uo_zgloszenie_zleceniodawca{
+	margin-top:35px;
+	border:1px solid #AC273F;
+	padding: 5px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.uo_tytul_sekcji{
+	position: absolute;
+	top:-26px;
+    left: -5px;
+	background-color: #AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 26px;
+    padding-left: 10px;
+}
+
+.uo_zgloszenie_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.uo_zgloszenie_zleceniodawca .uo_napis{
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.uo_element{
+	float:left;
+	margin-top:4px;
+}
+
+.uo_element p{
+	font-size: 12px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.uo_element div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+}
+.uo_zleceniodawca_nr_rachunku{
+	width:634px;
+    letter-spacing: 2px;
+}
+.uo_zleceniodawca_imie, .uo_zleceniodawca_w_imieniu_imie{
+	width:420px;
+
+}
+.uo_zleceniodawca_seria_i_numer_dowodu {
+    width:130px;
+}
+.uo_zleceniodawca_nazwisko, .uo_zleceniodawca_w_imieniu_nazwisko{
+	width:434px;
+}
+
+.uo_zleceniodawca_ulica, .uo_zleceniodawca_w_imieniu_ulica{
+	width:280px;
+}
+.uo_zleceniodawca_email{
+	width:850px;
+}
+.uo_zleceniodawca_pesel{
+	width:120px;
+}
+
+.uo_zleceniodawca_telefon{
+	width:557px;
+}
+
+.uo_zleceniodawca_adres_email{
+	width:884px;
+}
+.uo_zleceniodawca_nr_domu, .uo_zleceniodawca_w_imieniu_nr_domu, .uo_posiadacz_rachunku_nr_domu{
+	width:52px;
+	margin-right: 4px;
+}
+
+.uo_zleceniodawca_nr_mieszkania, .uo_zleceniodawca_w_imieniu_nr_mieszkania, .uo_posiadacz_rachunku_nr_mieszkania{
+	width:80px;
+	
+}
+
+.uo_zleceniodawca_kod_pocztowy, .uo_zleceniodawca_w_imieniu_kod_pocztowy, .uo_posiadacz_rachunku_kod_pocztowy{
+	width:80px;
+}
+
+.uo_zleceniodawca_miejscowosc, .uo_zleceniodawca_w_imieniu_miejscowosc{
+	width:288px;
+}
+
+.uo_posiadacz_rachunku_imie{
+	width:440px;
+}
+
+.uo_posiadacz_rachunku_nazwisko{
+	width:440px;
+}
+
+.uo_posiadacz_rachunku_ulica{
+	width:295px;
+}
+
+.uo_posiadacz_rachunku_miejscowosc{
+	width:299px;
+}
+
+.uo_naglowek_sekcji{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Carlito'; font-weight: 700;
+	margin:10px 0px 0px;
+}
+.uo_naglowek_sekcji_lewa p {
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Carlito'; font-weight: 700;
+	margin:10px 0px 0px;
+}
+
+.uo_zleceniobiorca{
+	margin-top:14px;
+	border:1px solid #636466;
+	padding: 10px;
+	border-left:5px solid #636466;
+	position:relative;
+}
+.uo_zleceniobiorca_pelnomocnik{
+	margin-top:44px;
+	border:1px solid #636466;
+	padding: 10px;
+	border-left:5px solid #636466;
+	position:relative;
+}
+
+.uo_zleceniobiorca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIOBIORCY:';
+	color:#636466;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+}
+.uo_zleceniobiorca_pelnomocnik:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'UPOWAŻNIAM:';
+	color:#636466;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+}
+
+.uo_zleceniobiorca p{
+	text-align: justify;
+}
+
+.uo_zleceniobiorca div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+	margin-top:4px;
+}
+.uo_zleceniobiorca_pelnomocnik p{
+	text-align: justify;
+}
+
+.uo_zleceniobiorca_pelnomocnik div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+	margin-top:4px;
+}
+
+.uo_sekcja{
+	position:relative;
+	margin-top:20px;
+}
+.uo_sekcja_bez_odstepu{
+	position:relative;
+	margin-top:0px;
+}
+.margin_b_10{
+	margin-bottom: 10px;
+}
+
+.uo_sekcja_tytul{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.uo_sekcja_tytul_lewa{
+    margin-top:30px;
+	text-align: left;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.uo_sekcja_paragraf{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+	margin: 10px 0px 10px 0px;
+}
+.uo_sekcja_tresc{
+	text-align: justify;
+}
+
+.uo_kratka{
+	padding:0px 4px;
+	border:1px solid #2B2E34;
+	margin-right: 4px;
+}
+
+.uo_male_litery{
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.uo_kratka_element{
+	padding-top: 14px;
+	width:240px;
+}
+
+.uo_kratka_element span{
+	float:left;
+}
+
+.uo_objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+    padding-top: 15px;
+	text-align: justify;
+	margin-top:15px;
+}
+
+.uo_strona_stopka{
+	position: absolute;
+	bottom:40px;
+	width: 920px;
+}
+
+.uo_strona_stopka_numer_strony, .uo_strona_stopka_napis{
+	font-size: 14px;
+}
+
+.uo_strona_stopka_numer_strony{
+	text-align: center;
+}
+
+.uo_strona_stopka_napis{
+	text-align: right;
+}
+
+.uo_pogrubienie{
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.uo_strona_2 .uo_sekcja:first-child{
+	margin-top:0px !important;
+}
+
+.uo_objasnienia .uo_strona_2{
+	margin-top: 10px;
+}
+
+.uo_objasnienia .uo_strona_1{
+	margin-top: 50px;
+}
+.uo_objasnienia .uo_strona_3{
+	margin-top: 30px;
+    margin-bottom: 60px;
+}
+.uo_podpis_lewo{
+	float:left;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	margin-top:20px;
+}
+
+.uo_podpis_prawo{
+	float:right;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	text-align: right;
+	margin-top:20px;
+}
+
+.uo_oswiadczenie{
+	margin-top: 10px;
+}
+
+.uo_oswiadczenie_tresc{
+	margin-top: 20px;
+	text-align: justify;
+}
+.uo_objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+	text-align: justify;
+	margin-top:10px;
+	padding-top: 5px;
+}
+.tytul_sekcji_formularza {
+    background-color: #AC273F;
+    border: 1px solid #AC273F;
+    border-left: 5px solid #AC273F;
+    height: 25px;
+    position: relative;
+}
+.pola_w_tytule {
+    font-size: 16px;
+    float: left;
+    font-family: 'Carlito';
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.element {
+    float: left;
+    margin-top: 2px;
+}
+.tresc_sekcji_fomularza {
+    padding: 5px;
+}
+.formularz {
+    margin-top: 10px;
+    border: 1px solid #AC273F;
+    border-left: 5px solid #AC273F;
+    position: relative;
+}
+.podtytul {
+	margin: 6px 0px 6px 0px;
+}
+.odstep_pomiedzy {
+	margin: 6px;
+}
+.margin_t_50 {
+	margin-top:50px !important;
+}
+.wybor_umowy input {
+	margin-top: 16px !important;
+}
+
+
+
+
+
+
+
+
+
+

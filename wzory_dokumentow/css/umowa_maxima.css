@@ -1,0 +1,452 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.required{
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(201, 37, 44, 1);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(201, 37, 44, 1);
+	box-shadow:         0px 0px 2px 0px rgba(201, 37, 44, 1);
+}
+
+.clear_b{
+	clear:both;
+}
+
+.margin_r_20{
+	margin-right: 20px;
+}
+
+.um_czerwony_tekst{
+	color:#AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+/*STRONA*/
+
+body{
+	background: rgba(0,0,0,0.7);
+}
+.um_strona{
+	background: #FFF;
+	width:920px;
+	height:1349px;
+	position: relative;
+	padding: 40px;
+	line-height: 1.2;
+	font-family: 'Carlito'; font-weight: normal;
+	margin:0 auto 0px;
+	overflow: hidden;
+}
+
+.um_strona_znak_wodny{
+	color:#CCC;
+	position: absolute;
+	-webkit-transform:rotate(-56deg);
+	transform:rotate(-56deg);
+	bottom:100px;
+	left:30px;
+	font-family: 'Carlito'; font-weight: normal;
+	z-index: 0;
+	font-size: 120px;
+	height:920px;
+	width:1649px;
+}
+
+.um_strona_tresc{
+	z-index: 1;
+	position: relative;
+}
+
+.um_logo_votum{
+	width: 214px;
+	height: 39px;
+	background: url(../../img/logo.png);
+	position:absolute;
+	top:40px;
+	right:40px;
+}
+
+.um_identyfikator_przedstawiciela{
+	height: 20px;
+	padding:4px;
+	width:258px;
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 20px;
+}
+.um_identyfikator_przedstawiciela:AFTER{
+	position:absolute;
+	top:24px;
+	left:4px; 
+	font-size:12px;
+	font-family: 'Carlito'; 	
+	content: 'IDENTYFIKATOR PRZEDSTAWICIELA';
+}
+.um_tytul_strony_maxima{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.um_tytul_strony_maxima p:first-child{
+	font-size: 26px;
+}
+
+.um_tytul_strony_maxima p{
+	font-family: 'Carlito'; font-weight: 700;
+}
+.um_na_podstawie_zamowienia{
+	margin-top:10px;
+	overflow: hidden;
+}
+
+.um_na_podstawie_zamowienia p{
+	float:left;
+	margin-right: 4px;
+}
+
+.um_zleceniodawca{
+	margin-top:34px;
+	border:1px solid #AC273F;
+	padding: 10px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.um_zleceniodawca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIODAWCĘ:';
+	color:#AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+}
+
+.um_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.um_zleceniodawca .um_napis{
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.um_zgloszenie_zleceniodawca{
+	margin-top:35px;
+	border:1px solid #AC273F;
+	padding: 5px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.um_tytul_sekcji{
+	position: absolute;
+	top:-26px;
+    left: -5px;
+	background-color: #AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 26px;
+    padding-left: 10px;
+}
+
+.um_zgloszenie_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.um_zgloszenie_zleceniodawca .um_napis{
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.um_element{
+	float:left;
+	margin-top:4px;
+}
+
+.um_element p{
+	font-size: 12px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.um_element div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+}
+.um_zleceniodawca_nr_rachunku{
+	width:634px;
+    letter-spacing: 2px;
+}
+.um_zleceniodawca_imie, .um_zleceniodawca_w_imieniu_imie{
+	width:420px;
+
+}
+.um_zleceniodawca_seria_i_numer_dowodu {
+    width:130px;
+}
+.um_zleceniodawca_nazwisko, .um_zleceniodawca_w_imieniu_nazwisko{
+	width:434px;
+}
+
+.um_zleceniodawca_ulica, .um_zleceniodawca_w_imieniu_ulica{
+	width:280px;
+}
+.um_zleceniodawca_email{
+	width:850px;
+}
+.um_zleceniodawca_pesel{
+	width:120px;
+}
+
+.um_zleceniodawca_telefon{
+	width:574px;
+}
+
+.um_zleceniodawca_adres_email{
+	width:884px;
+}
+.um_zleceniodawca_nr_domu, .um_zleceniodawca_w_imieniu_nr_domu, .um_posiadacz_rachunku_nr_domu{
+	width:52px;
+	margin-right: 4px;
+}
+
+.um_zleceniodawca_nr_mieszkania, .um_zleceniodawca_w_imieniu_nr_mieszkania, .um_posiadacz_rachunku_nr_mieszkania{
+	width:80px;
+	
+}
+
+.um_zleceniodawca_kod_pocztowy, .um_zleceniodawca_w_imieniu_kod_pocztowy, .um_posiadacz_rachunku_kod_pocztowy{
+	width:80px;
+}
+
+.um_zleceniodawca_miejscowosc, .um_zleceniodawca_w_imieniu_miejscowosc{
+	width:288px;
+}
+
+.um_posiadacz_rachunku_imie{
+	width:440px;
+}
+
+.um_posiadacz_rachunku_nazwisko{
+	width:440px;
+}
+
+.um_posiadacz_rachunku_ulica{
+	width:295px;
+}
+
+.um_posiadacz_rachunku_miejscowosc{
+	width:299px;
+}
+
+.um_naglowek_sekcji{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Carlito'; font-weight: 700;
+	margin:10px 0px 0px;
+}
+
+.um_zleceniobiorca{
+	margin-top:14px;
+	border:1px solid #636466;
+	padding: 10px;
+	border-left:5px solid #636466;
+	position:relative;
+}
+
+.um_zleceniobiorca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIOBIORCY:';
+	color:#636466;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+}
+
+.um_zleceniobiorca p{
+	text-align: justify;
+}
+
+.um_zleceniobiorca div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+	margin-top:4px;
+}
+
+.um_sekcja{
+	position:relative;
+	margin-top:20px;
+}
+.um_sekcja_bez_odstepu{
+	position:relative;
+	margin-top:0px;
+}
+.margin_b_10{
+	margin-bottom: 10px;
+}
+
+.um_sekcja_tytul{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.um_sekcja_tytul_lewa{
+    margin-top:30px;
+	text-align: left;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.um_sekcja_paragraf{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.um_sekcja_tresc{
+	text-align: justify;
+}
+
+.um_kratka{
+	padding:0px 4px;
+	border:1px solid #2B2E34;
+	margin-right: 4px;
+}
+
+.um_male_litery{
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.um_kratka_element{
+	padding-top: 14px;
+	width:240px;
+}
+
+.um_kratka_element span{
+	float:left;
+}
+
+.um_objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+    padding-top: 15px;
+	text-align: justify;
+	margin-top:15px;
+}
+
+.um_strona_stopka{
+	position: absolute;
+	bottom:40px;
+	width: 920px;
+}
+
+.um_strona_stopka_numer_strony, .um_strona_stopka_napis{
+	font-size: 14px;
+}
+
+.um_strona_stopka_numer_strony{
+	text-align: center;
+}
+
+.um_strona_stopka_napis{
+	text-align: right;
+}
+
+.um_pogrubienie{
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.um_strona_2 .um_sekcja:first-child{
+	margin-top:0px !important;
+}
+
+.um_objasnienia .um_strona_2{
+	margin-top: 30px;
+}
+
+.um_objasnienia .um_strona_1{
+	margin-top: 50px;
+}
+.um_objasnienia .um_strona_3{
+	margin-top: 30px;
+    margin-bottom: 60px;
+}
+.um_podpis_lewo{
+	float:left;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	margin-top:20px;
+}
+
+.um_podpis_prawo{
+	float:right;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	text-align: right;
+	margin-top:20px;
+}
+
+.um_oswiadczenie{
+	margin-top: 10px;
+}
+
+.um_oswiadczenie_tresc{
+	margin-top: 20px;
+	text-align: justify;
+}
+.um_objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+	text-align: justify;
+	margin-top:10px;
+	padding-top: 5px;
+	z-index: 1;
+}

@@ -1,0 +1,82 @@
+.k-select{
+    border-radius: 0 !important;
+}
+.calculate, .calculateTranche, .refreshCalculate{
+    position: relative;
+}
+.calculate button, .calculateTranche button, .refreshCalculate button{
+    _position: absolute;
+    width: 100%;
+    border-radius: 0;
+    background-color: #a71016;
+    color: white;
+    font-size: 25px;
+}
+.calculate button:hover, .calculateTranche button:hover, .refreshCalculate button:hover{
+    background-color: white;
+    color: black;
+}
+span .k-tooltip{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    bottom: -30px;
+    border-width: 1px;
+    padding: 2px 5px 1px 6px;
+}
+.franc-calculator-form label{
+    width: 100%;
+}
+.franc-calculator-form .k-widget{
+    width: 80%;
+}
+.franc-calculator-form{
+    margin-bottom: 35px;
+}
+.franc-calculator-header{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #a71016;
+}
+.closeToExpirationInfo{
+    font-size: 28px;
+
+    font-weight: 600;
+    text-align: center;
+    color: #a71016;
+    margin-top: 30px;
+}
+.actualOverpaidValue, .futureOverpaidValue, .spreadRefundValue{
+    color: #006d00;
+    font-weight: 600;
+    font-size: 31px;
+    margin-left: 15%;
+}
+.pln-value-div > span > span > input:first-child, .pln-value-div > span > span > input:nth-child(2), .pln-value-div > span > span > input:nth-child(2):focus,
+.loan-period-div > span > span > input:first-child, .loan-period-div > span > span > input:nth-child(2), .loan-period-div > span > span > input:nth-child(2):focus,
+.agreement-date-div > span > span > input:first-child, .agreement-date-div > span > span > input:nth-child(2), .agreement-date-div > span > span > input:nth-child(2):focus,
+.margin-div > span > span > input:first-child, .margin-div > span > span > input:nth-child(2), .margin-div > span > span > input:nth-child(2):focus{
+    background-color: #a71016;
+    color: white;
+}
+.franc_tooltip{
+    float: right;
+    background-color: #e4e7eb;
+    padding: 3px 11px;
+    border-radius: 25px;
+    margin-top: 4px;
+    margin-right: 20px;
+    color: #a71016;
+    font-weight: bold;
+    cursor: pointer;
+}
+.futureOverpaidValueTranche{
+    color: #006d00;
+    font-weight: 600;
+    font-size: 31px;
+    margin-left: 15%;
+    border: none;
+    background-color: white;
+    text-align: center;
+}

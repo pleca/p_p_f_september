@@ -1,0 +1,111 @@
+//DOMIESZKI
+.domieszka_box-shadow(@Horizontal: 0px, @Vertical: 0px, @Blur: 1px, @Spread: 0px, @Color: #666){
+  -webkit-box-shadow: @Horizontal @Vertical @Blur @Spread @Color;
+  -moz-box-shadow: @Horizontal @Vertical @Blur @Spread @Color;
+  box-shadow: @Horizontal @Vertical @Blur @Spread @Color;
+}
+@szary: #ddd;
+
+#popUpTytul .edytujKonkursNaglowek .popover.left {
+  margin-left: -17px !important;
+}
+
+#popUpTresc2 .well:last-child {
+  margin-bottom: 15px !important;
+}
+
+.konkurs{
+  margin: 15px 0;
+
+  .konkursOpcje{
+    top: 8px;
+    right: 24px;
+
+    .fa{
+      margin:4px;
+    }
+  }
+
+  .miniaturaKonkurs{
+    overflow: hidden;
+    width:100%;
+    height:240px;
+    position: relative;
+
+    img{
+      width:100%;
+      height:auto;
+      position: absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      margin:auto;
+    }
+  }
+
+  .panel, img{
+    transition: 0.5s;
+  }
+
+  &:hover .panel{
+    .domieszka_box-shadow(1px, 1px, 5px);
+
+    img{
+      transform: scale(1.1) rotate(1deg);
+    }
+  }
+
+}
+
+.konkursDane, .panelDodatkoweZdjecie{
+
+  .tab-pane{
+    border:1px solid #ddd;
+    border-top: none;
+  }
+
+  .konkursZdjecie{
+
+    img{
+      width:100%;
+      height:auto;
+    }
+  }
+
+  .wysiwyg-toolbar{
+    width:100% !important;
+    border:none;
+    border-bottom: 1px solid @szary;
+    margin-left:0;
+    margin-top: 0;
+  }
+
+  .dodatkoweGrafiki{
+
+    .miniaturaDodatkowaGrafikaKonkurs{
+        float:left;
+        width:23%;
+        height:90px;
+        margin: 10px 1% 0;
+        overflow: hidden;
+        border:1px solid #FFF;
+        .domieszka_box-shadow(0, 0, 2px);
+
+      img{
+        height:auto !important;
+        width:100% !important;
+        transition:0.5s;
+      }
+      &:hover img{
+        transform:scale(1.01);
+      }
+    }
+  }
+  .konkursZapiszZmianyDodatkowaGrafike.margin_t_10{
+    margin-top: 0 !important;
+  }
+  #przyciskUploadGrupaUpload, .przyciskUploadGrupaUpload {
+    height: 30px !important;
+  }
+}

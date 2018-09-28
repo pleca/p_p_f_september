@@ -1,0 +1,3 @@
+<?php
+
+//milczenie jest złotem

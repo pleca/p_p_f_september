@@ -1,0 +1,169 @@
+﻿/*STYLE DLA MODUŁU: MOJE SPRAWY*/
+
+.body_strona .lista {
+    background: #CCC;
+    float: right;
+    padding: 10px;
+}
+#zakladki_tresc {
+	background: #CCC;
+	padding: 10px;
+}
+#zgloszenia_wrapper {
+	background: #FFF;
+	padding: 10px;
+}
+td.szczegoly {
+    cursor: pointer;
+    width:30px;
+	height: 10px;
+	padding-top:10px !important;
+	background: url(/img/rozwin.png) no-repeat center center;
+}
+tr.shown td.szczegoly {
+    cursor: pointer;
+    width:30px;
+	height: 10px;
+	padding-top:10px !important;
+	background: url(/img/zwin.png) no-repeat center center;
+}
+
+.dataTables_length, .dataTables_filter {
+	margin-bottom:20px !important;
+}
+.dataTables_filter label input {
+    padding: 8px;
+    border: 1px solid #CCC;
+    margin-right: 10px;
+}
+.dataTables_length label select {
+	padding: 8px;
+    border: 1px solid #CCC;
+}
+.dataTables_length {
+	margin-left: 10px;
+}
+table.dataTable thead th {
+    font-weight: normal !important;
+} 
+.dataTables_info {
+	margin-left: 10px;
+}
+table.dataTable.no-footer, thead {
+    border-bottom: none !important;
+}
+
+.table.dataTable tbody th, table.dataTable tbody td {
+    padding: 6px 8px !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 12px 18px !important;
+    border-bottom: none !important;
+}
+
+.naglowek_sprawy p {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.nazwa_kolumny {
+    font-weight: bold;
+    width: 22%;
+    text-align: left;
+}
+.wartosc_kolumny {
+    width: 28%;
+}
+.data_wiersz {
+    text-decoration: underline;
+    float: left;
+    margin-right: 5px;
+}
+#zgloszenia tfoot th input {
+    width: 100%;
+    border-style: none;
+    border: 1px solid #CCC;
+    height: 25px;
+}
+tfoot {
+    display: table-header-group;
+}
+#szczegoly_spraw tr {
+    height: 26px !important;
+}
+#szczegoly_spraw tr:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+#szczegoly_spraw tr td {
+    padding: 5px;
+}
+.wyslij_powiadomienie_btn {
+    background-color: #CCC;
+    width: 75%;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-left:50px;
+    padding-top:5px;
+}
+.wyslij_powiadomienie_btn p {
+    text-align: center;
+}
+#tabelka_wrapper {
+    border: 2px solid #CCC;
+    margin-top: 15px;
+    margin-bottom: 15px !important;
+    padding: 10px;
+}
+.body-center {
+     text-align: center;
+ }
+.body-right {
+    text-align: right;
+}
+.panel {
+    margin-bottom: 80px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.menu_element {
+    width: 130px;
+    color:black;
+}
+
+#sprawy_filter label {
+    margin-right:20px;
+}
+.pokaz_szczegoly_sprawy, .pokaz_szczegoly_zgloszenia {
+    cursor: pointer;
+}
+.margin_t_40 {
+    margin-top: 40px;
+}
+.tresc_zgloszen {
+    margin-top: 10px;
+}
+#szczegoly_zgloszenia tr:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+#szczegoly_zgloszenia tr td {
+    padding: 5px;
+}
+select {
+    height: 25px;
+}
+.nazwa_kolumny_inf {
+    font-weight: bold;
+    width: 10%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.wartosc_kolumny_inf {
+    width: 40%;
+}
+#zgloszenia tbody td {
+    white-space: normal;
+}

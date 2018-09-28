@@ -1,0 +1,74 @@
+﻿/*STYLE DLA MODUŁU: RAPORTY*/
+
+.body-center {
+	text-align: center;
+}
+.body-right {
+	text-align: right;
+}
+
+.panel_menu_body button {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.szczegoly_prowizji, .suma_prowizji, .rok_poprzedni, .rok_kolejny, .pokaz_szczegoly_prowizji_agenta, .pokaz_wszystkie_szczegoly_prowizji_agenta, .pokaz_szczegoly_prowizji_agentow {
+	cursor: pointer;
+}
+#szczegoly_prowizji_wrapper, #szczegoly_prowizji_agenta_ze_struktury_wrapper {
+	font-size: 9px;
+	margin-top: 80px;
+}
+.panel {
+	margin-bottom: 80px;
+}
+.center {
+	text-align:center;
+}
+.zmiana_roku {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+#podzial_prowizji_agenta_wrapper {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+tfoot {
+	display: table-header-group;
+}
+.menu_element {
+    width: 130px;
+    color: black;
+}
+tfoot tr th input {
+	width: 100%;
+}
+#podzial_prowizji_agentow_wrapper {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.nazwa {
+	width: 200px !important;
+}
+.child .dtr-details li {
+	float: left;
+	list-style: none;
+}
+.przycisk_zapisz_zmiany {
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+	height: 40px !important;
+	margin-top: 0 !important;
+	padding: 10px;
+}
+.przycisk_zapisz_zmiany:hover {
+	color: #fff;
+	background-color: #5cb85c;
+}
+.zaznaczonyFiltr,
+.zaznaczonyFiltr:hover {
+	color: #fff;
+	background-color: #5cb85c;
+}

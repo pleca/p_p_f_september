@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "Museo_100";
+    src:url('https://cdn.votum-sa.pl/fonts/Museo_100.php') format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Museo_300";
+    src:url('https://cdn.votum-sa.pl/fonts/Museo_300.php') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Museo_500";
+    src:url('https://cdn.votum-sa.pl/fonts/Museo_500.php') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Museo_700";
+    src:url('https://cdn.votum-sa.pl/fonts/Museo_700.php') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Museo_900";
+    src:url('https://cdn.votum-sa.pl/fonts/Museo_900.php') format('truetype');
+    font-weight: 900;
+}
+.pdf_strona {
+    font-family: "Museo_300";
+    background: #FFF;
+    width: 991px;
+    height: 1403px;
+    position: relative;
+    padding: 0px;
+    line-height: 1.0;
+    font-size: 8px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.size-a4 {
+    width: 6.2in !important;
+    height: 8.7in !important;
+}
+.pdf-page {
+    position: relative;
+    margin: 10px 0 10px 0px !important;
+    padding: 0px;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.margin_width {
+    padding: 0px 30px 0px 30px;
+}
+.logo_left {
+    float: left;
+    width: 50%;
+}
+.logo_right {
+    float: right;
+    width: 50%;
+}
+.logo_right img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.logo_left img {
+    float: left;
+    margin-left: 0px;
+}
+.agent_id {
+    float: left;
+    width: 50%;
+}
+.unit_code {
+    float: left;
+    width: 25%;
+}
+.consultant_code {
+    float: left;
+    width: 25%;
+}
+.box {
+    height: 16px;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+}
+.big_box {
+    font-family: "Museo_700";
+    height: 53px;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+}
+.damage_big_box {
+    height: 120px;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+}
+.under_small_label {
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+}
+.contract_name p {
+    font-style:normal;
+    font-family: "Museo_900";
+    font-weight:900;
+    text-align: center;
+    width: 100%;
+    font-size:14px;
+    padding: 0px 30px 0px 30px;
+}
+.form_section_client {
+    width: 100%;
+    height: 258px;
+}
+.form_section {
+    width: 100%;
+}
+.form_section_phone {
+    width: 100%;
+    height: 50px;
+}
+.form_section_insurer {
+    width: 100%;
+    height: 185px;
+}
+.form_section_agreements {
+    width: 100%;
+    height: 184px;
+}
+.form_section_body {
+    background-color: #CCC;
+    position: relative;
+    float: left;
+    width: 94%;
+    height: auto;
+}
+.red_margin {
+    background-color: #CC0000;
+    position: relative;
+    float: left;
+    width: 3%;
+    height: 100%;
+}
+.body_form .form_grey_body {
+    padding: 0px !important;
+}
+.label_contract {
+    font-size: 10px !important;
+    color: #000 !important;
+    padding: 5px 10px 0px 10px;
+    font-family: "Museo_500";
+}
+.padding_column {
+    padding: 5px 10px 0px 10px;
+}
+.padding_column input {
+    width: 100% !important;
+    height:18px !important;
+    font-size:10px !important;
+    border-radius: 0rem !important;
+}
+.margin_10 {
+    height: 10px;
+}
+.event_header {
+    background-color: #CC0000;
+    color: #FFF;
+    width: 100%;
+    font-weight: bold;
+    font-size: 10px;
+}
+.text_label_contract {
+    font-size: 8px !important;
+    color: #000 !important;
+    padding: 5px 20px 0px 20px;
+}
+.print_text {
+    width: 100px;
+    z-index: 9999;
+    bottom: 20px;
+    right: 10px;
+    position: absolute;
+}
+.number_site_text {
+    width: 20%;
+    left: 40%;
+    z-index: 9999;
+    bottom: 20px;
+    position: absolute;
+}
+.number p {
+    padding-top: 2px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+.capture {
+    width: 100%;
+    height: 14px;
+    font-family: "Museo_300";
+}
+.capture_title {
+    background-color: #000000;
+    position: relative;
+    float: left;
+    width: 82%;
+    height: 100%;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 700;
+    padding-left: 2%;
+    padding-top: 4px;
+    font-family: "Museo_700";
+}
+.red_margin_capture {
+    background-color: #CC0000;
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    padding-top: 5px;
+}
+.number_capture {
+    background-color: #FFF;
+    position: relative;
+    float: left;
+    width: 6%;
+    height: 100%;
+    color: #000;
+    font-size: 10px;
+    font-family: "Museo_700";
+    font-weight: 700;
+    text-align: center;
+    padding-top: 4px;
+}
+.contract_text {
+    position: relative;
+    font-size: 8px;
+    line-height:10px;
+    padding: 15px 30px 0px 30px;
+}
+b {
+    font-weight: 700;
+    font-family: "Museo_700";
+}
+.border_bottom {
+    border-bottom: 1px solid #CCC;
+    width: 100%;
+}
+ol li {
+    text-align: justify;
+}
+.white_table {
+    width: 96%;
+    height: 370px;
+    background-color: #FFF;
+    margin: 2% 2% 2% 2%;
+    border: 1px solid #000;
+}
+.underline {
+    position:relative;
+    display:inline-block;
+}
+.underline:after {
+    content:"";
+    position:absolute;
+    bottom:-2px;
+    left:0;
+    display:inline-block;
+    width:100%;
+    border-bottom: #CCC solid 1px;
+}
+.underline_black {
+    position:relative;
+    display:inline-block;
+}
+.underline_black:after {
+    content:"";
+    position:absolute;
+    bottom:-2px;
+    left:0;
+    display:inline-block;
+    width:100%;
+    border-bottom: #000 solid 1px;
+}
+li {
+    list-style: none;
+}
+.number {
+    width: 2%;
+    float: left;
+}
+.li_content {
+    width: 98%;
+    float: left;
+    text-align: justify;
+}
+.number_f_10 {
+    width: 5%;
+    float: left;
+}
+.li_content_f_10 {
+    width: 95%;
+    float: left;
+    text-align: justify;
+}

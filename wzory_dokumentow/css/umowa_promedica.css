@@ -1,0 +1,467 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.required{
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(201, 37, 44, 1);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(201, 37, 44, 1);
+	box-shadow:         0px 0px 2px 0px rgba(201, 37, 44, 1);
+}
+
+.clear_b{
+	clear:both;
+}
+
+.margin_r_20{
+	margin-right: 20px;
+}
+
+.up_czerwony_tekst{
+	color:#AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+/*STRONA*/
+
+body{
+	background: rgba(0,0,0,0.7);
+}
+
+.up_strona{
+	background: #FFF;
+	width:920px;
+	height:1349px;
+	position: relative;
+	padding: 40px;
+	line-height: 1.2;
+	font-family: 'Carlito'; font-weight: normal; 
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.up_strona_znak_wodny{
+	color:#CCC;
+	position: absolute;
+	-webkit-transform:rotate(-56deg);
+	transform:rotate(-56deg);
+	bottom:100px;
+	left:30px;
+	font-family: 'Carlito'; font-weight: normal; 
+	z-index: 0;
+	font-size: 120px;
+	height:920px;
+	width:1649px;
+}
+
+.up_strona_tresc{
+	z-index: 1;
+	position: relative;
+}
+
+.up_logo_votum{
+	width: 214px;
+	height: 39px;
+	background: url(../../img/logo.png);
+	position:absolute;
+	top:40px;
+	right:40px;
+}
+
+.up_identyfikator_przedstawiciela{
+	height: 20px;
+	padding:4px;
+	width:258px;
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 20px;
+}
+.up_identyfikator_przedstawiciela:AFTER{
+	position:absolute;
+	top:24px;
+	left:4px; 
+	font-size:12px;
+	font-family: 'Carlito'; 	
+	content: 'IDENTYFIKATOR PRZEDSTAWICIELA';
+}
+.up_tytul_strony_promedica{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.up_tytul_strony_promedica p:first-child{
+	font-size: 26px;
+}
+
+.up_tytul_strony_promedica p{
+	font-family: 'Carlito'; font-weight: 700;
+}
+.up_na_podstawie_zamowienia{
+	margin-top:10px;
+	overflow: hidden;
+}
+
+.up_na_podstawie_zamowienia p{
+	float:left;
+	margin-right: 4px;
+}
+
+.up_zleceniodawca{
+	margin-top:34px;
+	border:1px solid #AC273F;
+	padding: 10px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.up_zleceniodawca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIODAWCĘ:';
+	color:#AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+}
+
+.up_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.up_zleceniodawca .up_napis{
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.up_zgloszenie_zleceniodawca{
+	margin-top:35px;
+	border:1px solid #AC273F;
+	padding: 5px;
+	border-left:5px solid #AC273F;
+	position:relative;
+}
+
+.up_tytul_sekcji{
+	position: absolute;
+	top:-26px;
+    left: -5px;
+	background-color: #AC273F;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 26px;
+    padding-left: 10px;
+}
+
+.up_zgloszenie_zleceniodawca > p{
+	font-size: 12px;
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.up_zgloszenie_zleceniodawca .up_napis{
+	margin: 4px 0px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.up_element{
+	float:left;
+	margin-top:4px;
+}
+
+.up_element p{
+	font-size: 12px;
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.up_element div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+}
+.up_zleceniodawca_nr_rachunku{
+	width:634px;
+    letter-spacing: 2px;
+}
+.up_zleceniodawca_imie, .up_zleceniodawca_w_imieniu_imie{
+	width:420px;
+
+}
+.up_zleceniodawca_seria_i_numer_dowodu {
+    width:130px;
+}
+.up_zleceniodawca_nazwisko, .up_zleceniodawca_w_imieniu_nazwisko{
+	width:434px;
+}
+
+.up_zleceniodawca_ulica, .up_zleceniodawca_w_imieniu_ulica{
+	width:280px;
+}
+.up_zleceniodawca_email{
+	width:850px;
+}
+.up_zleceniodawca_pesel{
+	width:120px;
+}
+
+.up_zleceniodawca_telefon{
+	width:574px;
+}
+
+.up_zleceniodawca_adres_email{
+	width:884px;
+}
+.up_zleceniodawca_nr_domu, .up_zleceniodawca_w_imieniu_nr_domu, .up_posiadacz_rachunku_nr_domu{
+	width:52px;
+	margin-right: 4px;
+}
+
+.up_zleceniodawca_nr_mieszkania, .up_zleceniodawca_w_imieniu_nr_mieszkania, .up_posiadacz_rachunku_nr_mieszkania{
+	width:80px;
+	
+}
+
+.up_zleceniodawca_kod_pocztowy, .up_zleceniodawca_w_imieniu_kod_pocztowy, .up_posiadacz_rachunku_kod_pocztowy{
+	width:80px;
+}
+
+.up_zleceniodawca_miejscowosc, .up_zleceniodawca_w_imieniu_miejscowosc{
+	width:288px;
+}
+
+.up_posiadacz_rachunku_imie{
+	width:440px;
+}
+
+.up_posiadacz_rachunku_nazwisko{
+	width:440px;
+}
+
+.up_posiadacz_rachunku_ulica{
+	width:295px;
+}
+
+.up_posiadacz_rachunku_miejscowosc{
+	width:299px;
+}
+
+.up_naglowek_sekcji{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Carlito'; font-weight: 700;
+	margin:10px 0px 0px;
+}
+
+.up_zleceniobiorca{
+	margin-top:14px;
+	border:1px solid #636466;
+	padding: 10px;
+	border-left:5px solid #636466;
+	position:relative;
+}
+
+.up_zleceniobiorca:BEFORE{
+	position: absolute;
+	top:-26px;
+	left:10px;
+	content: 'ZLECENIOBIORCY:';
+	color:#636466;
+	font-family: 'Carlito'; font-weight: 700;
+	font-size: 18px;
+}
+
+.up_zleceniobiorca p{
+	text-align: justify;
+}
+
+.up_zleceniobiorca div{
+	border:1px solid #231F20;
+	padding: 4px;
+	font-size: 16px;
+	margin-top:4px;
+}
+
+.up_sekcja{
+	position:relative;
+	margin-top:20px;
+}
+.up_sekcja_bez_odstepu{
+	position:relative;
+	margin-top:0px;
+}
+.margin_b_10{
+	margin-bottom: 10px;
+}
+
+.up_sekcja_tytul{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.up_sekcja_tytul_lewa{
+    margin-top:30px;
+	text-align: left;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.up_sekcja_paragraf{
+	text-align: center;
+	font-family: 'Carlito'; font-weight: 700;
+}
+.up_sekcja_tresc{
+	text-align: justify;
+}
+
+.up_kratka{
+	padding:0px 4px;
+	border:1px solid #2B2E34;
+	margin-right: 4px;
+}
+
+.up_male_litery{
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.up_kratka_element{
+	padding-top: 14px;
+	width:240px;
+}
+
+.up_kratka_element span{
+	float:left;
+}
+
+.up_objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+    padding-top: 15px;
+	text-align: justify;
+	margin-top:15px;
+}
+
+.up_strona_stopka{
+	position: absolute;
+	bottom:40px;
+	width: 920px;
+}
+
+.up_strona_stopka_numer_strony, .up_strona_stopka_napis{
+	font-size: 14px;
+}
+
+.up_strona_stopka_numer_strony{
+	text-align: center;
+}
+
+.up_strona_stopka_napis{
+	text-align: right;
+}
+
+.up_pogrubienie{
+	font-family: 'Carlito'; font-weight: 700;
+}
+
+.up_strona_2 .up_sekcja:first-child{
+	margin-top:0px !important;
+}
+
+.up_objasnienia .up_strona_2{
+	margin-top: 30px;
+}
+
+.up_objasnienia .up_strona_1{
+	margin-top: 50px;
+}
+.up_objasnienia .up_strona_3{
+	margin-top: 30px;
+    margin-bottom: 60px;
+}
+.up_podpis_lewo{
+	float:left;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	margin-top:20px;
+}
+
+.up_podpis_prawo{
+	float:right;
+	border-top: 1px solid #2B2E34;
+	width:300px;
+	text-align: right;
+	margin-top:20px;
+}
+
+.up_oswiadczenie{
+	margin-top: 10px;
+}
+
+.up_oswiadczenie_tresc{
+	margin-top: 20px;
+	text-align: justify;
+}
+.up_objasnienia{
+	font-size: 12px;
+	border-top:1px solid #2B2E34;
+	text-align: justify;
+	margin-top:10px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
